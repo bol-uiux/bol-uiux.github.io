@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Yes</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-close-black" transform="translate(-6.000000, -6.000000)">
+            <g id="Yes" transform="translate(20.845518, 21.310582) rotate(-45.000000) translate(-20.845518, -21.310582) translate(6.345518, 6.810582)">
+                <path d="M14.5610834,29.0005331 C22.5692123,29.0005331 29.0610834,22.508662 29.0610834,14.5005331 C29.0610834,6.49240417 22.5692123,0.000533066953 14.5610834,0.000533066953 C6.55295455,0.000533066953 0.0610834225,6.49240417 0.0610834225,14.5005331 C0.0610834225,22.508662 6.55295455,29.0005331 14.5610834,29.0005331 Z" id="Oval-54" fill="#000000" fill-rule="nonzero"></path>
+                <g id="+" transform="translate(5.061083, 5.000533)" fill="#FFFFFF">
+                    <g id="Group" transform="translate(0.000000, 0.000000)">
+                        <polygon id="+" points="10.795625 10.765 18.00125 10.765 18.00125 8.03125 10.795625 8.03125 10.795625 0.488125 8.061875 0.488125 8.061875 8.03125 0.85625 8.03125 0.85625 10.765 8.061875 10.765 8.061875 18.49375 10.795625 18.49375"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

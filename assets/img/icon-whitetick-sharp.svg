@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="19px" viewBox="0 0 25 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.1_Deposit-Amount-Change" transform="translate(-910.000000, -306.000000)" stroke="#FFFFFF" fill="#FFFFFF">
+            <path d="M919.981983,323.784041 C919.830305,323.928015 919.632088,324 919.433867,324 C919.233929,324 919.035712,323.926378 918.884029,323.784041 L911.227518,316.518128 C910.924161,316.23018 910.924161,315.763894 911.227518,315.474312 L913.790543,313.04148 C914.0939,312.753532 914.586861,312.753532 914.888497,313.04148 L919.432013,317.354202 L930.111505,307.217189 C930.414862,306.927604 930.906102,306.927604 931.209459,307.217189 L933.772484,309.650022 C933.918992,309.787449 934,309.975597 934,310.17193 C934,310.36662 933.918992,310.554768 933.772484,310.693837 L919.981983,323.784041 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

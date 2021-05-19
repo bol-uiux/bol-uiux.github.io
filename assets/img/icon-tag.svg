@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="35px" viewBox="0 0 47 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    
+    <defs>
+        <polygon id="path-1" points="0 0 40.32 0 33.803201 25.8744978 0 25.8744978"></polygon>
+        <filter x="-3.7%" y="-5.8%" width="114.9%" height="123.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.114243659 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Re-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.5_BetOnline_Desktop_VP_DataAnimation" transform="translate(-60.000000, -2697.000000)">
+            <g id="Group-12-Copy-5" transform="translate(60.000000, 2697.000000)">
+                <g id="Group-33-Copy">
+                    <g id="Group-57">
+                        <g id="Group-18" transform="translate(0.000000, 0.716327)">
+                            <g id="Rectangle-28-Copy-2">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#E7E7E7" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                        <polygon id="Path-3" fill="#90918D" points="0.152929687 26.3939045 8.66355469 34.4169015 8.66355469 26.4876165"></polygon>
+                        <polygon id="Path-4" fill="#90918D" points="40.3344141 0.675403579 46.5408984 6.5431252 38.9642197 6.5431252"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

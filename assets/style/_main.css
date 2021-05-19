@@ -1,0 +1,5384 @@
+/**
+ * Colors
+ * General Red: #F32D28;
+ * Danger: #d9534f
+ * Secondary Dark Grey: #4a4a4a
+ */
+
+body {}
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+b,
+strong {
+    font-weight: 500;
+}
+
+
+/** bootstrap tweaks **/
+
+.modal-backdrop.show {
+    opacity: 0.8;
+}
+
+.text-primary {
+    color: #F32D28 !important;
+    /* bootstrap has !important, must use to override */
+}
+
+
+/** icons **/
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100% 100%;
+}
+.icon-upload-redcircle {
+    background-image: url(../img/icon-upload-redcircle.svg);
+    width: 87px;
+    height: 87px;
+  }
+  .icon-trash {
+    background-image: url(../img/icon-trash.svg);
+    width: 11px;
+    height: 18px;
+  }
+  .icon-spinner {
+    background-image: url(../img/icon-spinner.png);
+    width: 18px;
+    height: 18px;
+  }
+.icon-arrow-down-red {
+    background-image: url(../img/icon-arrow-down-red.svg);
+    width: 9px;
+    height: 7px;
+}
+.icon-info-red {
+    background-image: url(../img/icon-info-red.svg);
+    width: 23px;
+    height: 23px;
+  }
+  .icon-print {
+    background-image: url(../img/icon-print.svg);
+    width: 15px;
+    height: 14px;
+  }
+.icon-copy {
+    background-image: url(../img/icon-copy.svg);
+    width: 24px;
+    height: 24px;
+    margin: -4px 5px 0;
+}
+
+.icon-close-red {
+    background-image: url(../img/icon-close-red.svg);
+    width: 30px;
+    height: 30px;
+}
+
+.icon-close-black {
+    background-image: url(../img/icon-close-black.svg);
+    width: 30px;
+    height: 30px;
+}
+
+.icon-close-grey {
+    content: url("../img/icon-close.svg");
+}
+
+.icon-help-online {
+    background-image: url(../img/icon-help-online.svg);
+    width: 36px;
+    height: 36px;
+}
+
+.icon-help-location {
+    background-image: url(../img/icon-help-location.svg);
+    width: 25px;
+    height: 36px;
+}
+
+.icon-help-phone {
+    background-image: url(../img/icon-help-phone.svg);
+    width: 34px;
+    height: 34px;
+}
+.icon-help-phone-white {
+    background-image: url(../img/icon-help-phone-white.svg);
+    width: 34px;
+    height: 34px;
+  }
+.icon-help-services {
+    background-image: url(../img/icon-help-services.svg);
+    width: 30px;
+    height: 32px;
+}
+
+.icon-help-envelope {
+    background-image: url(../img/icon-help-envelope.svg);
+    width: 35px;
+    height: 21px;
+}
+.icon-help-envelope-white {
+    background-image: url(../img/icon-help-envelope-white.svg);
+    width: 35px;
+    height: 21px;
+  }
+.icon-help-chat {
+    background-image: url(../img/icon-help-chat.svg);
+    width: 37px;
+    height: 30px;
+}
+
+.icon-safety-tickshield {
+    background-image: url(../img/icon-safety-tickshield.svg);
+    width: 25px;
+    height: 28px;
+}
+
+.icon-safety-lockcycle {
+    background-image: url(../img/icon-safety-lockcycle.svg);
+    width: 27px;
+    height: 26px;
+}
+
+.icon-safety-clockcycle {
+    background-image: url(../img/icon-safety-clockcycle.svg);
+    width: 24px;
+    height: 24px;
+}
+
+.icon-safety-cards {
+    background-image: url(../img/icon-safety-cards.svg);
+    width: 26px;
+    height: 26px;
+}
+.icon-lock-cycle {
+    background-image: url(../img/icon-lock-cycle.svg);
+    width: 131px;
+    height: 125px;
+  }
+.icon-bigred-creditcard {
+    background-image: url(../img/icon-bigred-creditcard.svg);
+    width: 77px;
+    height: 77px;
+}
+
+.icon-bigred-creditcardIncreaseLimit {
+    background-image: url(../img/Increase_icon.svg);
+    width: 56px;
+    height: 56px;
+    margin: -4px 5px 0;
+}
+
+
+
+.icon-bigred-bitcoin {
+    background-image: url(../img/icon-bigred-bitcoin.svg);
+    width: 77px;
+    height: 77px;
+}
+
+.icon-bigred-cryptocurrency {
+    background-image: url(../img/icon-bigred-cryptocurrency.svg);
+    width: 79px;
+    height: 75px;
+}
+
+.icon-bigred-account {
+    background-image: url(../img/icon-bigred-account.svg);
+    width: 77px;
+    height: 77px;
+}
+
+.icon-bigred-tryagain {
+    background-image: url(../img/icon-bigred-tryagain.svg);
+    width: 77px;
+    height: 77px;
+}
+
+.icon-smallred-creditcard {
+    background-image: url(../img/icon-smallred-creditcard.svg);
+    width: 31px;
+    height: 28px;
+}
+
+.icon-smallred-bitcoin {
+    background-image: url(../img/icon-smallred-bitcoin.svg);
+    width: 24px;
+    height: 31px;
+}
+
+.icon-smallred-account {
+    background-image: url(../img/icon-smallred-account.svg);
+    width: 27px;
+    height: 31px;
+}
+
+.icon-smallred-tryagain {
+    background-image: url(../img/icon-smallred-tryagain.svg);
+    width: 28px;
+    height: 28px;
+}
+
+.icon-p2p-confirm {
+    background-image: url(../img/icon-p2p-confirm.svg);
+    width: 62px;
+    height: 72px;
+}
+
+.icon-p2p-setup {
+    background-image: url(../img/icon-p2p-setup.svg);
+    width: 58px;
+    height: 72px;
+}
+
+.icon-whitepayment-amex {
+    background-image: url(../img/icon-whitepayment-amex.svg);
+    width: 50px;
+    height: 43px;
+    fill: #ffffff !important;
+}
+.icon-whitepayment-numberplaceholder {
+    background-image: url(../img/icon-whitepayment-numberplaceholder.svg);
+    width: 84px;
+    height: 84px;
+    line-height: 82px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+  }
+  .icon-whitepayment-cashout {
+    background-image: url(../img/icon-whitepayment-cashout.svg);
+    width: 84px;
+    height: 60px;
+  }
+  .icon-whitepayment-checkbycourier {
+    background-image: url(../img/icon-whitepayment-checkbycourier.svg);
+    width: 58px;
+    height: 44px;
+  }
+  .icon-whitepayment-moneyorder {
+    background-image: url(../img/icon-whitepayment-moneyorder.svg);
+    width: 62px;
+    height: 28px;
+  }
+
+.icon-whitepayment-gold {
+    background-image: url(../img/icon-whitepayment-gold.svg);
+    width: 100px;
+    height: 100px;
+    margin: -8px 0 0 -10px;
+    fill: #ffffff !important;
+}
+
+.icon-whitepayment-mastercard {
+    background-image: url(../img/icon-whitepayment-mastercard.svg);
+    width: 50px;
+    height: 43px;
+}
+.icon-whitepayment-cryptocurrency {
+    background-image: url(../img/icon-whitepayment-cryptocurrency.svg);
+    width: 79px;
+    height: 75px;
+  }
+  .icon-whitepayment-astropaydirect {
+    background-image: url(../img/icon-whitepayment-astropaydirect.svg);
+    width: 65px;
+    height: 27px;
+  }
+  .icon-whitepayment-przelewy24 {
+    background-image: url(../img/icon-whitepayment-przelewy24.svg);
+    width: 67px;
+    height: 23px;
+  }
+  .icon-whitepayment-skrill1tap {
+    background-image: url(../img/icon-whitepayment-skrill1tap.svg);
+    width: 64px;
+    height: 13px;
+  }
+  .icon-whitepayment-ecopayz {
+    background-image: url(../img/icon-whitepayment-ecopayz.svg);
+    width: 50px;
+    height: 12px;
+    /* 352 82 */
+  }
+  .icon-whitepayment-eft {
+    background-image: url(../img/icon-whitepayment-eft.svg);
+    width: 50px;
+    height: 16px;
+    /* 281 88 */
+  }
+  .icon-whitepayment-idebit {
+    background-image: url(../img/icon-whitepayment-idebit.svg);
+    width: 50px;
+    height: 24px;
+    /* 179 85 */
+  }
+.icon-whitepayment-interac {
+    background-image: url(../img/icon-whitepayment-interac.svg);
+    width: 50px;
+    height: 43px;
+}
+
+.icon-whitepayment-interac-etransfer {
+    background-image: url(../img/icon-whitepayment-interac-etransfer.svg);
+    width: 50px;
+    height: 43px;
+}
+
+.icon-whitepayment-altcoin-usdcoin {
+    background-image: url(../img/icon-altcoin-usdcoin.svg);
+    width: 71px;
+    height: 71px;
+    margin: -13px 0px -10px -13px !important;
+}
+
+.icon-whitepayment-etherium {
+    background-image: url(../img/icon-whitepayment-etherium.svg);
+    width: 34px;
+    height: 55px;
+    /* original size: 1405 925 */
+}
+.icon-whitepayment-altcoin {
+    background-image: url(../img/icon-whitepayment-altcoin.svg);
+    width: 50px;
+    height: 50px;
+  }
+  .icon-whitepayment-astropay {
+    background-image: url(../img/icon-whitepayment-astropay.svg);
+    width: 55px;
+    height: 21px;
+    /* 380x148 */
+  }
+.icon-whitepayment-bitcoin {
+    background-image: url(../img/icon-whitepayment-bitcoin.svg);
+    width: 51px;
+    height: 67px;
+}
+.icon-whitepayment-bitcoincash {
+    background-image: url(../img/icon-whitepayment-bitcoincash.svg);
+    width: 55px;
+    height: 34px;
+  }
+  .icon-whitepayment-dash {
+    background-image: url(../img/icon-whitepayment-dash.svg);
+    width: 52px;
+    height: 31px;
+  }
+
+.icon-whitepayment-darkcoin {
+    background-image: url(../img/icon-whitepayment-darkcoin.png);
+    width: 57px;
+    height: 38px;
+}
+
+.icon-whitepayment-bch {
+    background-image: url(../img/icon-whitepayment-bch.png);
+    width: 57px;
+    height: 38px;
+}
+
+.icon-whitepayment-bitcoin-wallet {
+    background-image: url(../img/icon-whitepayment-bitcoin-wallet.svg);
+    width: 71px;
+    height: 72px;
+    margin: -5px 0 0 -3px;
+}
+
+.icon-whitepayment-booktobook {
+    background-image: url(../img/icon-whitepayment-booktobook.svg);
+    width: 50px;
+    /*height: 50px;*/
+    height: 34px;
+    /* original size: 61 42 */
+}
+
+.icon-whitepayment-creditcard {
+    background-image: url(../img/icon-whitepayment-creditcard.svg);
+    width: 83px;
+    height: 53px;
+}
+.icon-whitepayment-entropay {
+    background-image: url(../img/icon-whitepayment-entropay.svg);
+    width: 54px;
+    height: 27px;
+    /* 741 376 */
+  }
+
+.icon-whitepayment-cryptocurrency {
+    background-image: url(../img/icon-whitepayment-cryptocurrency.svg);
+    width: 79px;
+    height: 75px;
+}
+
+.icon-whitepayment-litecoin {
+    background-image: url(../img/icon-whitepayment-litecoin.svg);
+    width: 44px;
+    height: 44px;
+    margin-top: -3px;
+}
+
+.icon-whitepayment-moneygram {
+    background-image: url(../img/icon-whitepayment-moneygram.svg);
+    width: 45px;
+    height: 45px;
+}
+
+.icon-whitepayment-entropay {
+    background-image: url(../img/icon-whitepayment-entropay.svg);
+    width: 54px;
+    height: 27px;
+    /* 741 376 */
+}
+
+.icon-entropay2 {
+    background-image: url(../img/icon-whitepayment-entropay.svg);
+    width: 100px;
+    height: 45px;
+    /* 741 376 */
+}
+
+.icon-whitepayment-mistercash {
+    background-image: url(../img/icon-whitepayment-mistercash.svg);
+    width: 50px;
+    height: 31px;
+    /* 146 90 */
+}
+
+.icon-whitepayment-sofort {
+    background-image: url(../img/icon-whitepayment-sofort.svg);
+    width: 58px;
+    height: 11px;
+    /* 740 134 */
+}
+
+.icon-whitepayment-ria {
+    background-image: url(../img/icon-whitepayment-ria.svg);
+    width: 50px;
+    height: 24px;
+    /* original size: 61 32 */
+}
+
+.icon-whitepayment-wiretransfer {
+    background-image: url(../img/icon-whitepayment-wiretransfer.svg);
+    /*width: 50px;*/
+    width: 37px;
+    height: 50px;
+    /* original size: 44 59 */
+}
+
+.icon-whitepayment-wupay {
+    background-image: url(../img/icon-whitepayment-wupay.svg);
+    width: 50px;
+    /*height: 50px;*/
+    height: 20px;
+    /* original size:  57 23 */
+}
+
+.icon-bonus-bitcoin {
+    background-image: url(../img/icon-bonus-bitcoin.svg);
+    width: 54px;
+    height: 54px;
+}
+
+.icon-bonus-crypto {
+    background-image: url(../img/icon-bonus-crypto.svg);
+    width: 54px;
+    height: 54px;
+  }
+
+.icon-p2p-confirm {
+    background-image: url(../img/icon-p2p-confirm.svg);
+    width: 62px;
+    height: 72px;
+}
+
+.icon-p2p-setup {
+    background-image: url(../img/icon-p2p-setup.svg);
+    width: 58px;
+    height: 72px;
+}
+
+
+/* NEW PAYMENTS */
+
+.icon-whitepayment-abaqoos {
+    background-image: url(../img/icon-whitepayment-abaqoos.svg);
+    width: 58px;
+    height: 17px;
+    /* original size: 706 204 */
+}
+
+.icon-whitepayment-boleto {
+    background-image: url(../img/icon-whitepayment-boleto.svg);
+    width: 50px;
+    height: 30px;
+    /* original size: 368 223 */
+}
+
+.icon-whitepayment-echeck {
+    background-image: url(../img/icon-whitepayment-echeck.svg);
+    width: 56px;
+    height: 22px;
+    /* original size: 368 223 */
+}
+
+
+/* ECheck size for EP Cashier */
+
+.circlebutton-big>.icon-whitepayment-echeck {
+    width: 110px;
+    height: 35px;
+}
+
+.icon-whitepayment-cartasi {
+    background-image: url(../img/icon-whitepayment-cartasi.svg);
+    width: 56px;
+    height: 13px;
+    /* original size: 716 181 */
+}
+
+.icon-whitepayment-cashierscheque {
+    background-image: url(../img/icon-whitepayment-cashierscheque.svg);
+    width: 50px;
+    height: 36px;
+    /* original size: 200 145 */
+}
+
+.icon-whitepayment-cashout {
+    background-image: url(../img/icon-whitepayment-cashout.svg);
+    width: 49px;
+    height: 60px;
+}
+
+.icon-whitepayment-numberplaceholder {
+    background-image: url(../img/icon-whitepayment-numberplaceholder.svg);
+    width: 52px;
+    height: 74px;
+    line-height: 73px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+  }
+
+.icon-whitepayment-cobroexpress {
+    background-image: url(../img/icon-whitepayment-cobroexpress.svg);
+    width: 50px;
+    height: 25px;
+    /* original size: 436 214 */
+}
+
+.icon-whitepayment-dineromail {
+    background-image: url(../img/icon-whitepayment-dineromail.svg);
+    width: 58px;
+    height: 9px;
+    /* original size: 224 39 */
+}
+.icon-whitepayment-echeck {
+    background-image: url(../img/icon-whitepayment-echeck.svg);
+    width: 56px;
+    height: 22px;
+    /* original size: 348 136 */
+  }
+.icon-whitepayment-enets {
+    background-image: url(../img/icon-whitepayment-enets.svg);
+    width: 50px;
+    height: 31px;
+    /* original size: 670 421 */
+}
+
+.icon-whitepayment-epay {
+    background-image: url(../img/icon-whitepayment-epay.svg);
+    width: 50px;
+    height: 18px;
+    /* original size: 306 110 */
+}
+
+.icon-whitepayment-eps {
+    background-image: url(../img/icon-whitepayment-eps.svg);
+    width: 50px;
+    height: 46px;
+    /* original size: 656 517 */
+}
+
+.icon-whitepayment-euteller {
+    background-image: url(../img/icon-whitepayment-euteller.svg);
+    width: 60px;
+    height: 12px;
+    /* original size: 439 108 */
+}
+
+.icon-whitepayment-ideal {
+    background-image: url(../img/icon-whitepayment-ideal.svg);
+    width: 40px;
+    height: 22px;
+    /* original size: 213 118 */
+}
+.icon-whitepayment-instadebit {
+    background-image: url(../img/icon-whitepayment-instadebit.svg);
+    width: 62px;
+    height: 7px;
+    /* original size: 331 36 */
+  }
+.icon-whitepayment-maestro {
+    background-image: url(../img/icon-whitepayment-maestro.svg);
+    width: 50px;
+    height: 30px;
+    /* original size: 188 114 */
+}
+.icon-whitepayment-mistercash {
+    background-image: url(../img/icon-whitepayment-mistercash.svg);
+    width: 50px;
+    height: 31px;
+    /* 146 90 */
+  }
+.icon-whitepayment-moneta {
+    background-image: url(../img/icon-whitepayment-moneta.svg);
+    width: 40px;
+    height: 46px;
+    /* original size: 262 300 */
+}
+
+.icon-whitepayment-moneyorders {
+    background-image: url(../img/icon-whitepayment-moneyorders.svg);
+    width: 50px;
+    height: 25px;
+    /* original size: 214 105 */
+}
+
+.icon-whitepayment-skrill {
+    background-image: url(../img/icon-whitepayment-skrill.svg);
+    width: 50px;
+    height: 17px;
+    /* 227 78 */
+}
+
+.icon-whitepayment-neteller {
+    background-image: url(../img/icon-whitepayment-neteller.svg);
+    width: 54px;
+    height: 10px;
+    /* original size: 238 42 */
+}
+
+.icon-whitepayment-nordea {
+    background-image: url(../img/icon-whitepayment-nordea.svg);
+    width: 54px;
+    height: 11px;
+    /* original size: 137 29 */
+}
+
+.icon-whitepayment-onlinebanktransfer {
+    background-image: url(../img/icon-whitepayment-onlinebanktransfer.svg);
+    width: 50px;
+    height: 19px;
+    /* original size: 136 52 */
+}
+
+.icon-whitepayment-oxxo {
+    background-image: url(../img/icon-whitepayment-oxxo.svg);
+    width: 50px;
+    height: 35px;
+    /* original size: 117 82 */
+}
+
+.icon-whitepayment-paysafecard, .icon-whitepayment-paysafe {
+    background-image: url(../img/icon-whitepayment-paysafe.svg);
+    width: 58px;
+    height: 10px;
+    /* original size: 545 96 */
+}
+
+.icon-whitepayment-poli {
+    background-image: url(../img/icon-whitepayment-poli.svg);
+    width: 50px;
+    height: 18px;
+    /* original size: 622 221 */
+}
+
+.icon-whitepayment-postepay {
+    background-image: url(../img/icon-whitepayment-postepay.svg);
+    width: 54px;
+    height: 12px;
+    /* original size: 158 32 */
+}
+
+.icon-whitepayment-trustly {
+    background-image: url(../img/icon-whitepayment-trustly.svg);
+    width: 60px;
+    height: 13px;
+    /* original size: 518 113 */
+}
+
+.icon-whitepayment-7-eleven, .icon-whitepayment-seveneleven  {
+    background-image: url(../img/icon-whitepayment-seveneleven.svg);
+    width: 30px;
+    height: 40px;
+    /* original size: 44 58 */
+}
+
+.icon-whitepayment-instadebit {
+    background-image: url(../img/icon-whitepayment-instadebit.svg);
+    width: 62px;
+    height: 7px;
+}
+.icon-whitepayment-skrill {
+    background-image: url(../img/icon-whitepayment-skrill.svg);
+    width: 50px;
+    height: 17px;
+    /* 227 78 */
+  }
+  .icon-whitepayment-sofort {
+    background-image: url(../img/icon-whitepayment-sofort.svg);
+    width: 58px;
+    height: 11px;
+    /* 740 134 */
+  }
+  .icon-whitepayment-upaycard {
+    background-image: url(../img/icon-whitepayment-upaycard.svg);
+    width: 56px;
+    height: 12px;
+    /* original size: 506 112 */
+  }
+.icon-whitepayment-usemyfunds {
+    background-image: url(../img/icon-whitepayment-usemyfunds.svg);
+    width: 62px;
+    height: 21px;
+    margin-top: -8px;
+    /* original size: 289 97 */
+}
+
+.icon-whitepayment-upaycard {
+    background-image: url(../img/icon-whitepayment-upaycard.svg);
+    width: 56px;
+    height: 12px;
+}
+.icon-echeck-logo {
+    background-image: url(../img/icon-echeck-logo.svg);
+    width: 122px;
+    height: 44px;
+  }
+  .icon-moneyorder-logo {
+    background-image: url(../img/icon-moneyorder-logo.svg);
+    width: 100px;
+    height: 45px;
+  }
+.icon-bonus-gift {
+    background-image: url(../img/icon-bonus-gift.svg);
+    width: 54px;
+    height: 54px;
+}
+
+.icon-bonus-heart {
+    background-image: url(../img/icon-bonus-heart.svg);
+    width: 53px;
+    height: 46px;
+}
+
+.icon-bonus-other {
+    background-image: url(../img/icon-bonus-other.svg);
+    width: 45px;
+    height: 45px;
+}
+
+.icon-whitepayment-altcoins {
+    background-image: url(../img/icon-whitepayment-altcoins.png);
+    width: 78px;
+    height: 79px;
+}
+
+.icon-whitepayment-spv {
+    background-image: url(../img/icon-whitepayment-spv.svg);
+    width: 140px;
+    height: 140px;
+    margin: -29px 0 0 -29px !important;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-whitepayment-skrill-obt {
+    background-image: url(/components/assets/img/icon-whitepayment-skrill-obt.png);
+    width: 80px;
+    height: 80px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-whitepayment-bitcoingold {
+    background-image: url(../img/icon-whitepayment-bitcoingold.svg);
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0px;
+}
+
+.icon-whitepayment-ripple {
+    background-image: url(../img/icon-whitepayment-ripple.svg);
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 -10px;
+}
+
+.icon-whitepayment-zpay {
+    background-image: url(../img/icon_whitepayment_zelle.svg);
+    width: 75%;
+    height: 75%;
+    margin: 0 0 0 0px;
+}
+
+.icon-whitepayment-0x {
+    background-image: url(../img/icon-whitepayment-0x.svg);
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0px;
+}
+
+.icon-whitepayment-zcash {
+    background-image: url(../img/icon-whitepayment-zcash.svg);
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0px;
+}
+
+.icon-whitepayment-status {
+    background-image: url(../img/icon-whitepayment-status.svg);
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0px;
+}
+
+.icon-whitepayment-spy {
+    background-image: url(../img/icon-whitepayment-btc-cc.svg);
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0px;
+  }
+
+/** general view bits **/
+
+.simple-modalview {
+    background: #000;
+}
+
+.simple-copy {
+    text-align: center;
+    color: #747474;
+}
+
+.simple-areaheading {
+    text-align: center;
+    font-size: 34px;
+    color: #2D2E2C;
+    font-weight: 300;
+    margin: 20px 0;
+    padding: 0 20px;
+    line-height: 1.3em;
+}
+
+.simple-copy small {
+    font-weight: 300;
+}
+.simple-copy em {
+    color: #000;
+  }
+@media all and (max-width: 768px) {
+    .simple-areaheading {
+        font-size: 28px;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+}
+
+.simple-biglightheading {
+    text-align: center;
+    font-size: 34px;
+    color: #4A4A4A;
+    font-weight: 300;
+    margin: 20px 0;
+    padding: 0 20px;
+    line-height: 1.3em;
+}
+
+.simple-stepheading {
+    text-align: center;
+    font-size: 26px;
+    color: #002F43;
+    font-weight: 300;
+    margin: 20px 0;
+    padding: 0 20px;
+    line-height: 1.3em;
+}
+
+.simple-stepsubheading {
+    text-align: center;
+    font-size: 18px;
+    color: #002F43;
+    font-weight: 300;
+    margin: 20px 0;
+    padding: 0 20px;
+    line-height: 1.3em;
+}
+
+.simple-sectionheading {
+    text-align: center;
+    font-size: 18px;
+    color: #003247;
+    font-weight: 300;
+    margin: 20px 0;
+    padding: 0 20px;
+    line-height: 1.3em;
+    width: auto;
+    clear: initial;
+    text-transform: inherit;
+}
+
+.simple-copy p {
+    font-size: 18px;
+}
+
+.simple-copy-small p {
+    font-size: 14px;
+}
+
+.simple-stepheading small {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.simple-view {
+    background: #fff;
+    padding: 20px;
+    min-height: 400px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #4A4A4A;
+}
+.simple-view-wide {
+    max-width: 580px;
+  }
+.simple-view-wider {
+    max-width: 780px;
+}
+
+.simple-view hr {
+
+}
+
+.simple-view-main {
+    min-height: 300px;
+}
+
+.simple-logo,
+.simple-logo-abrreviated,
+.widget-modelcontents .simple-logo {
+    background-image: url(../img/logo-128-red.png);
+    background-size: 64px 48px;
+    width: 64px;
+    height: 48px;
+    margin: 10px auto 20px;
+}
+
+.simple-logo2 {
+    background-image: url(../img/logo-129-red.png);
+    background-size: 100px 90px;
+    width: 100px;
+    height: 90px;
+    margin: 10px auto 20px;
+}
+
+.widget-modelcontents .simple-view {
+    max-width: 400px;
+}
+
+@media all and (min-width: 768px) {
+    .simple-logo {
+        background-image: url(../img/logo-full-ag.svg);
+        background-size: 300px 34px;
+        width: 300px;
+        height: 34px;
+        margin: 10px auto 60px;
+    }
+}
+
+.page-error {
+    background-color: #EE3536;
+}
+
+.simple-view-error {
+    background-color: #EE3536;
+}
+
+.simple-view-error a {
+    color: #fff;
+}
+
+.simple-view-error a:hover {
+    color: #fff;
+}
+
+.simple-view-error .simple-logo {
+    background-image: url(../img/logo-128-white.png);
+}
+
+.simple-view-error .simple-copy,
+.simple-view-error .simple-stepheading {
+    color: #fff;
+}
+
+.simple-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../img/icon-close-black.svg) center center no-repeat;
+    background-size: 20px 20px;
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+@media all and (max-width: 340px) {
+    .simple-close-button-mobilecompact {
+      width: 34px;
+      height: 34px;
+    }
+  }
+  @media all and (min-width: 768px) {
+    .simple-close-button-mobilecompact {
+      display: none;
+    }
+  }
+.simple-close-button:hover,
+.simple-close-button:active {
+    opacity: 1;
+}
+
+.page-intro {
+    padding: 20px;
+}
+
+.page-intro h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #313230;
+}
+
+.page-intro p {
+    font-size: 14px
+}
+
+
+/** forms **/
+
+button {
+    cursor: pointer;
+}
+
+.simple-view .form-control {
+    border-radius: 0;
+    border-width: 0;
+    border-bottom: 1px solid #B4B4B4;
+    font-size: 18px;
+    padding: 6px 0 4px;
+    background-position: center right;
+    outline: none !important;
+}
+
+.simple-view .form-control:disabled {
+    background-color: transparent;
+    color: #999;
+}
+
+.simple-view .input-group-addon {
+    font-size: 18px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+.simple-view .form-control-feedback {
+    font-size: 11px;
+    font-style: italic;
+    color: #545454;
+    margin: -1px 0 -10px;
+}
+
+.simple-view .form-control::-webkit-input-placeholder {
+    color: #b2b2b2;
+}
+
+.simple-view .form-control::-moz-placeholder {
+    color: #b2b2b2;
+}
+
+.simple-view .form-control:-ms-input-placeholder {
+    color: #b2b2b2;
+}
+
+.simple-view .form-group.has-danger.has-danger.has-danger .form-control:before {
+    color: #b2b2b2;
+    /* ios date placeholder */
+}
+
+.simple-view .cashier-paymentoptions-wide {
+    max-width: none;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.simple-mobilewidth {
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+
+/* custom checkbox */
+
+
+/* Base for label styling */
+
+.simple-bigcheckbox {
+    display: block;
+    font-size: 14px;
+    cursor: pointer;
+    /*TODO Review margin-bottom: 15px*/
+}
+
+.simple-bigcheckbox input:not(:checked),
+.simple-bigcheckbox input:checked {
+    position: absolute;
+    left: -9999px;
+}
+
+.simple-bigcheckbox input+.simple-bigcheckbox-proxy {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    position: relative;
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    border: 1px solid #C3C3C3;
+    background-color: #F4F4F4;
+    background-image: url(../img/icon-whitetick-sharp.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 1px 1px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+
+/* checked mark aspect */
+
+.simple-bigcheckbox input:checked+.simple-bigcheckbox-proxy {
+    background-size: 24px 24px;
+    background-color: #F32D28;
+    border-color: #F32D28;
+}
+
+
+/* Toggle Slide */
+
+label.toggle-check {
+    width: 100%;
+}
+
+.toggle-check-input {
+    display: none;
+}
+
+.toggle-check-text {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px 50px;
+    color: #777;
+    font-weight: bold;
+    background: #EEE;
+    border-radius: 3em;
+    min-width: 2em;
+    width: 260px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #AAA;
+}
+
+.toggle-check-text:after {
+    content: ' ';
+    background: #EEE;
+    width: 24%;
+    height: 115%;
+    border: 2px solid #DDD;
+    border-radius: 2em;
+    position: absolute;
+    left: -3%;
+    top: -7%;
+    transition: all 0.4s cubic-bezier(0.275, -0.450, 0.725, 1.450);
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 7px 7px -8px black;
+}
+
+.toggle-check-text:before {
+    content: 'Slide to accept';
+}
+
+.descriptor-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.toggle-check-input:checked~.descriptor-text {
+    color: #F32D28;
+}
+
+.toggle-check-input:checked~.toggle-check-text {
+    background: #F32D28;
+    padding: 10px 50px;
+    color: #EEE;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.toggle-check-input:checked~.toggle-check-text:before {
+    content: 'Accepted';
+}
+
+.toggle-check-input:checked~.toggle-check-text:after {
+    left: 100%;
+    margin-left: -3.2em;
+}
+
+
+/* hover style just for information */
+
+label:hover:before {
+    border: 2px solid #4778d9!important;
+}
+
+
+/* actual modal iframe */
+
+.simple-modal-dialogframe .modal-dialog {
+    width: 350px;
+}
+
+.simple-modal-dialogframe .modal-content {
+    border: none;
+    border-radius: 0;
+    min-height: 400px;
+}
+
+.simple-modal-dialogframe iframe {
+    border: none;
+}
+
+
+/* modal page if viewed directly on desktop */
+
+@media all and (min-width: 768px) {
+    .widget-modelcontents {
+        background: #000;
+        padding-top: 100px;
+    }
+    .widget-modelcontents .simple-view {
+        position: relative;
+    }
+}
+
+.layout-graybarcontent {
+    background: #E7E7E7;
+}
+
+.layout-graybarcontent-inner {
+   position: relative;
+    margin: 0 auto;
+    background: #fff;
+    max-width: 1024px;
+    min-height: 100%;
+}
+
+
+/** graphic **/
+
+.graphic-error {
+    margin: 25px auto 15px;
+    background: url(../img/graphic-error.svg) center center no-repeat;
+    background-size: 98px 120px;
+    height: 120px;
+}
+
+.graphic-error {
+    background-size: 150px 183px;
+    height: 183px;
+}
+
+.graphic-error-white {
+    margin: 15px auto;
+    background: url(../img/graphic-error-white.svg) center center no-repeat;
+    background-size: 98px 120px;
+    height: 120px;
+}
+
+@media all and (max-width: 340px) {
+    .graphic-error-white {
+        transform: scale(0.8);
+        margin: 5px auto;
+    }
+}
+
+.graphic-clock {
+    display: block;
+    margin: 15px auto;
+    background: url(../img/graphic-clock.svg) center center no-repeat;
+    background-size: 76px 75px;
+    height: 75px;
+}
+
+span.graphic-clock {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+    margin: -6px 10px 2px 0;
+    vertical-align: middle;
+}
+
+.icon-loading {
+    margin: 50px auto;
+    background: url(../img/icon-loading.svg) center center no-repeat;
+    background-size: 140px 140px;
+    width: 140px;
+    height: 140px;
+}
+
+.graphic-wait {
+    position: relative;
+    margin: 20px auto 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 10px solid #F32D28;
+}
+
+.graphic-wait-small {
+    margin: 0 auto -10px;
+    transform: scale(0.8);
+}
+
+.graphic-wait span {
+    position: absolute;
+    top: 50%;
+    width: 10%;
+    height: 10%;
+    margin: -5% 0 0 -5%;
+    border-radius: 50%;
+    background: #F32D28;
+    animation: fadeOut 4s linear;
+    animation-iteration-count: infinite;
+}
+
+.graphic-wait span:nth-child(1) {
+    background: red;
+    left: 20%;
+    animation-delay: 0.5s;
+}
+
+.graphic-wait span:nth-child(2) {
+    background: red;
+    left: 40%;
+    animation-delay: 1s;
+}
+
+.graphic-wait span:nth-child(3) {
+    left: 60%;
+    animation-delay: 1.5s;
+}
+
+.graphic-wait span:nth-child(4) {
+    left: 80%;
+    animation-delay: 2.0s;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+}
+
+
+/* date input */
+
+.simple-view .form-control[type=date] {
+    height: 35px;
+    padding-right: 37px;
+}
+
+.simple-view .form-group:not(.has-value):not(.has-focus) .form-control[type=date] {
+    color: #fff;
+}
+
+.simple-view .form-group:not(.has-value):not(.has-focus) .form-control[type=date]:before {
+    color: #b2b2b2;
+    content: attr(placeholder);
+}
+
+.simple-view .form-datefallback {
+    border-bottom: 1px solid #B4B4B4;
+}
+
+.simple-view .form-datefallback label {
+    color: #686868;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 18px;
+    height: 30px;
+    line-height: 42px;
+    padding-right: 5px;
+}
+
+.simple-view .form-datefallback select.form-control {
+    display: inline-block;
+    vertical-align: bottom;
+    width: auto;
+    padding-right: 20px;
+    padding-left: 5px;
+    border-bottom: none;
+}
+
+
+/* select input */
+
+.simple-view select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-image: url(../img/select-arrow.svg);
+    background-size: 14px 8px;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.simple-view select.form-control::-ms-expand {
+    display: none;
+}
+
+.widget-selectplaceholder select.empty {
+    color: #ccc;
+    background-image: url(../img/select-arrow-red.svg);
+}
+
+
+/* validation */
+
+.simple-view .has-danger .form-control-danger {
+    background-image: url(../img/icon-redcross.svg) !important;
+    background-size: 11px 11px;
+}
+
+.simple-view .form-group label {
+    color: #4A4A4A;
+}
+
+.simple-view .has-success input.form-control-success {
+    background-image: url(../img/icon-greentick.svg);
+    background-size: 15px 12px;
+}
+
+.simple-view .has-success select.form-control-success {
+    background-image: url(../img/select-arrow.svg), url(../img/icon-greentick.svg);
+    background-position: right 25px center, right center;
+    background-size: 14px 8px, 15px 12px;
+}
+
+.simple-view .form-group.has-danger .form-control,
+.simple-view .form-group.has-danger .form-control-feedback {
+    color: #d9534f;
+}
+
+.simple-view .form-group.has-danger .form-control::-webkit-input-placeholder {
+    color: #d9534f;
+}
+
+.simple-view .form-group.has-danger .form-control::-moz-placeholder {
+    color: #d9534f;
+}
+
+.simple-view .form-group.has-danger .form-control:-ms-input-placeholder {
+    color: #d9534f;
+}
+
+.simple-view .form-group.has-danger.has-danger.has-danger .form-control:before {
+    color: #d9534f;
+    /* ios date placeholder */
+}
+
+a,
+.btn-link {
+    color: #F32D28;
+}
+
+a:hover,
+.btn-link:hover {
+    color: #F32D28;
+}
+
+body .btn-link:active,
+body .btn-link:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.simple-view .btn {
+    padding: 0.7em 2em;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.btn.btn-primary {
+    border-color: #F32D28;
+    background-color: #F32D28;
+    color: #fff;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+    border-color: #d92623;
+    background-color: #d92623;
+}
+
+.btn.btn-primary:focus:hover {
+    color: #fff;
+}
+
+.btn.btn-secondary {
+    border-color: #4a4a4a;
+    background-color: #4a4a4a;
+    color: #fff;
+}
+
+.btn.btn-secondary:focus,
+.btn.btn-secondary:hover {
+    border-color: #222;
+    background-color: #222;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 2px rgba(243, 45, 40, 0.5);
+}
+
+.simple-view .btn-disabled {
+    border-color: #989898;
+    background-color: #989898;
+    color: #fff;
+}
+
+.simple-view .btn-disabled:focus,
+.simple-view .btn-disabled:hover {
+    border-color: #888;
+    background-color: #888;
+}
+
+.simple-view .btn-white {
+    border-color: #fff;
+    background: #fff;
+    color: #F32D28;
+}
+
+.simple-view .btn-primary.btn-white {
+    border-color: #F32D28;
+    border-width: 2px;
+}
+
+.simple-view .btn-primary.btn-white:hover {
+    color: #fff;
+}
+
+.simple-view .btn-sm {
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+
+.widget-viewpassword {
+    position: relative;
+}
+
+.widget-viewpassword-toggle {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    background: transparent url(../img/icon-eye.svg) 50% 50% no-repeat;
+    width: 31px;
+    height: 22px;
+    border: none;
+    border: 5px solid rgba(255, 255, 255, 0.01);
+    opacity: 0.45;
+}
+
+body .widget-viewpassword .widget-viewpassword-toggle {
+    outline: none;
+}
+
+.widget-viewpassword-toggle:not(.on):before {
+    content: " ";
+    position: absolute;
+    left: 9px;
+    top: -4px;
+    width: 2px;
+    height: 21px;
+    background: #000;
+    transform: rotate(45deg)
+}
+
+.form-group-internationalphone {
+    position: relative;
+}
+
+.form-group-internationalphone select.form-control.form-control {
+    vertical-align: top;
+    border-top: 2px solid #fff;
+    height: 33px;
+    padding: 0;
+    width: 70px;
+    background: none;
+}
+
+.form-group-internationalphone .form-group {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: left 0.3s ease-in-out;
+}
+
+.form-group-internationalphone .form-group .form-control.form-control {
+    height: 33px;
+}
+
+.form-group-internationalphone .form-group.widget-autovalidate.has-value,
+.form-group-internationalphone .form-group.widget-autovalidate.has-focus,
+.form-group-internationalphone .form-group.widget-autovalidate.ever-focused {
+    left: 60px;
+}
+
+
+/*** components ***/
+
+.circlebutton {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    background: #90918D;
+    color: #fff;
+    border: none;
+}
+
+.circlebutton-big {
+    width: 116px;
+    height: 116px;
+    border-radius: 58px;
+    line-height: 114px;
+}
+
+.circlebutton-big .icon {
+    transform: scale(0.8);
+}
+
+.circlebutton-medium {
+    width: 80px;
+    height: 80px;
+    border-radius: 45px;
+    line-height: 78px;
+}
+
+.circlebutton-small {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    line-height: 62px;
+}
+.circlebutton-extrasmall {
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    line-height: 43px;
+  }
+  .circlebutton-extrasmall .icon {
+    transform: scale(0.5);
+    margin: -10px;
+  }
+
+.circlebutton-medium .icon-whitepayment-bitcoin {
+    width: 41px;
+    height: 54px;
+}
+
+.circlebutton-medium .icon-whitepayment-cryptocurrency {
+    width: 50px;
+    height: 53px;
+    /* orig 79 x 75 */
+  }
+
+.circlebutton-medium .icon-whitepayment-creditcard {
+    width: 52px;
+    height: 32px;
+}
+
+.circlebutton-medium .icon-whitepayment-cryptocurrency {
+    width: 54px;
+    height: 53px;
+}
+
+@media screen and (max-width: 429px) {
+    .cashier-paymentoptions-large .cashier-paymentoptions-item {
+        min-width: 95px !important;
+    }
+    .circlebutton-big {
+        width: 80px;
+        height: 80px;
+        line-height: 78px;
+    }
+    .circlebutton-big .icon {
+        transform: scale(0.6)
+    }
+    .circlebutton-big > .icon-whitepayment-echeck {
+        width: 86px;
+    }
+    .cashier-paymentoptions-large a strong {
+        font-size: 13px;
+    }
+}
+
+.button-reset {
+    -webkit-appearance: none;
+    background: none !important;
+    color: inherit;
+    border: none;
+    padding: 0! important;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit !important;
+}
+
+.dotbutton {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 20px;
+    border: 6px solid #fff;
+    background: #F32D28;
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.dotbutton:focus,
+.dotbutton:active {
+    outline: none;
+}
+
+.dotbutton big {
+    font-size: 20px;
+}
+
+.dotbutton-sm {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    line-height: 22px;
+}
+
+.simple-view-error .dotbutton {
+    background: #fff;
+    color: #F32D28;
+    border-color: #F32D28;
+}
+
+
+/*** Join ***/
+
+.joinform-footer {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.joinform-footer a {
+    white-space: nowrap;
+}
+
+
+/* anim content */
+
+.animcontent-redcircle {
+    position: relative;
+    position: relative;
+    margin: 60px auto;
+    width: 135px;
+    height: 135px;
+    animation: overPopOut 1s ease-in-out;
+}
+
+.animcontent-redcircle div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    background: #EE3536;
+}
+
+.animcontent-redcircle-ring1,
+.animcontent-redcircle-ring2,
+.animcontent-redcircle-ring3 {
+    animation: fadeScaleOut 6s linear;
+    animation-iteration-count: infinite;
+}
+
+.animcontent-redcircle-ring2 {
+    animation-delay: 2s;
+}
+
+.animcontent-redcircle-ring3 {
+    animation-delay: 4s;
+}
+.animcontent-redcircle-small {
+    margin: 10px auto;
+    transform: scale(0.7);
+    animation: none;
+  }
+div.animcontent-redcircle-content {
+    z-index: 1;
+    background-image: url(../img/icon-whitetick.svg);
+    background-size: 80px 80px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+
+/* bigger version */
+
+.animcontent-redcircle-big {
+    width: 195px;
+    height: 195px;
+}
+
+.animcontent-redcircle-big .cashier-success-amount {
+    padding-top: 70px;
+}
+.animcontent-verification-progress {
+    max-width: 280px;
+    margin: 20px auto 30px;
+  }
+  .animcontent-verification-progress .icon-lock-cycle {
+    float: left;
+    width: 86px;
+    height: 81px;
+    margin-left: -10px;
+  }
+  .animcontent-verification-progress .icon-help-phone {
+    float: right;
+    width: 67px;
+    height: 70px;
+    margin-left: -5px;
+  }
+  .animcontent-verification-progress .icon-help-envelope {
+    float: right;
+    width: 76px;
+    height: 54px;
+    margin-top: 12px;
+  }
+  .animcontent-verification-progress-dots {
+    text-align: center;
+    line-height: 80px;
+  }
+  .animcontent-verification-progress-dots span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #000;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin: 0 4px;
+    animation: redFlash 2s;
+    animation-iteration-count: infinite;
+  }
+  .animcontent-verification-progress-dots span:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  .animcontent-verification-progress-dots span:nth-child(2) {
+    animation-delay: 1s;
+  }
+  .animcontent-verification-progress-dots span:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+  .animcontent-verification-progress-dots span:nth-child(4) {
+    animation-delay: 2.0s;
+  }
+  @keyframes redFlash {
+    0%   { background-color: #000; }
+    1%   { background-color: #F32D28; }
+    20%  { background-color: #F32D28; }
+    21%  { background-color: #000; }
+  }
+@keyframes popOut {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.15, 1.15);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes overPopOut {
+    0% {
+        transform: scale(0, 0);
+    }
+    80% {
+        transform: scale(1.1, 1.1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes fadeScaleOut {
+    0% {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.6, 1.6);
+    }
+}
+
+
+/* cashier */
+
+.cashier-paymentoptions {
+    max-width: 300px;
+    margin: 0 auto;
+ /*TODO Review   text-align: center;*/
+}
+
+.cashier-paymentoptions-item {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.cashier-paymentoptions-item strong {
+    display: block;
+    font-weight: inherit;
+    color: #90918D;
+}
+.cashier-paymentoptions-item strong small {
+    display: block;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 12px;
+    color: #333;
+  }
+.cashier-paymentoptions-item:hover {
+    text-decoration: none;
+}
+
+.cashier-paymentoptions-item:hover .circlebutton {
+    background: #EE3536;
+}
+
+.cashier-paymentoptions-item.item-zpay:hover .circlebutton {
+    background-color: #6C1ED4 !important;
+}
+
+.cashier-paymentoptions-item .circlebutton-medium~strong {
+    display: block;
+    font-size: 12px;
+    max-width: 80px;
+    margin: 0 auto;
+}
+.cashier-paymentoptions-large {
+    max-width: 400px;
+  }
+  .cashier-paymentoptions-large .cashier-paymentoptions-item {
+    min-width: 160px;
+  }
+  @media all and (max-width: 320px) {
+    .cashier-paymentoptions-large .cashier-paymentoptions-item {
+      transform: scale(0.9);
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+  
+  .cashier-paymentoptions-wide {
+    max-width: 335px;
+  }
+  .cashier-paymentoptions-wide .cashier-paymentoptions-item {
+    /*padding: 14px;*/
+  }
+  @media all and (min-width: 768px) {
+    .cashier-paymentoptions-wide {
+      /*margin-top: 60px;*/
+    }
+    .cashier-paymentoptions-wide .cashier-paymentoptions-item {
+      /*padding: 12px;*/
+    }
+    .simple-view .cashier-paymentoptions-wide {
+      max-width: none;
+      margin-left: -30px;
+      margin-right: -30px;
+    }
+  }
+
+/* cashier-deposit */
+
+.cashier-depositoptions {
+    text-align: center;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.cashier-depositoptions button {
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+}
+
+@media all and (max-width: 380px) {
+    .cashier-depositoptions button {
+        margin: 5px;
+    }
+}
+
+.cashier-depositoptions button.on {
+    background-color: #F32D28;
+}
+
+.cashier-deposit-amount {
+    margin: 20px 0 !important;
+}
+
+.cashier-deposit-amount .form-control{
+    text-align: center;
+    background: none !important;
+    /* disable ticks */
+    font-size: 28px !important;
+}
+
+#amount_form .form-control-danger {
+    background: none !important;
+}
+
+.cashier-deposit-amount .form-control,
+.cashier-deposit-amount .input-group .input-group-addon {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.cashier-deposit-amount.has-success .form-control,
+.cashier-deposit-amount.has-success .input-group-addon {
+    color: #666;
+    /* disable ticks */
+}
+
+.cashier-deposit-amount .form-control-feedback {
+    text-align: center;
+    font-size: 10px !important;
+    font-style: normal !important;
+    padding: 5px 0;
+}
+
+.cashier-deposit-amount small {
+    display: inline-block;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.cashier-deposit-feetip {
+    margin: 15px 0;
+}
+
+.cashier-deposit-feetip span,
+.cashier-deposit-feetip a {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/*** cashier-withdraw-options ***/
+
+.cashier-withdrawoptions-item {
+    position: relative;
+    transition: opacity 0.2s;
+  }
+  .cashier-withdrawoptions-item:not(:first-child) {
+    border-top: 1px solid #ccc;
+    margin-top: -1px;
+  }
+  .cashier-withdrawoptions-item:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
+  .cashier-withdrawoptions .cashier-withdrawoptions-item button[type="submit"] {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+    color: inherit;
+    text-align: left;
+  }
+  .cashier-withdrawoptions-item-disabled {
+    opacity: 0.3;
+  }
+  .cashier-withdrawoptions .cashier-withdrawoptions-item button:active {
+    background-color: transparent;
+  }
+  .cashier-withdrawoptions .cashier-withdrawoptions-item button:focus {
+    background-color: transparent;
+  }
+  .cashier-withdrawoptions-item .circlebutton {
+    float: left;
+    margin: 5px 10px 5px 0;
+  }
+  .cashier-withdrawoptions-item strong {
+    display: block;
+  }
+  .cashier-withdrawoptions-item strong + small {
+    float: right;
+  }
+  .cashier-withdrawoptions-item small {
+    display: block;
+    font-size: 10px;
+    line-height: 1.3em;
+  }
+  .cashier-withdrawoptions-item-expand {
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .cashier-withdrawoptions-item-expand:after {
+    content: " ";
+    display: block;
+    height: 8px;
+  }
+  .cashier-withdrawoptions-item-expand a {
+    font-style: normal;
+    font-weight: 700;
+  }
+  .cashier-withdrawoptions-item-expandtoggle {
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: transparent url(../img/select-arrow-red.svg) 50% 50% no-repeat;
+    outline: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  .cashier-withdrawoptions-item-expandtoggle:focus {
+    outline: none;
+  }
+  .cashier-withdrawoptions-item-expand.show + .cashier-withdrawoptions-item-expandtoggle {
+    transform: rotate(180deg);
+  }
+  
+  /* exheck example */
+  
+  .echeck-example-popover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+    outline: 1px solid red;
+    background-color: rgba(0,0,0,0.84);
+    z-index: 99;
+  }
+  .echeck-example-popover.show {
+    display: table;
+  }
+  .echeck-example-popover > div {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .echeck-example-popover img {
+    cursor: pointer;
+    max-width: 95%;
+  }
+/*** cashier-bitcoin-deposit ***/
+
+.cashier-bitcoin-deposit {
+    position: relative;
+    padding: 10px 0 20px;
+    margin-bottom: 30px;
+}
+
+.cashier-bitcoin-deposit-or {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background: #9F9F9F;
+}
+
+.cashier-bitcoin-deposit-or span {
+    position: absolute;
+    top: 22px;
+    left: -24px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    background: #fff;
+    color: #9F9F9F;
+    text-align: center;
+}
+
+.cashier-bitcoin-deposit .cashier-bitcoin-deposit-qroption {
+    padding: 40px 20px 0px;
+}
+
+.cashier-bitcoin-deposit-qroption {
+    text-align: center;
+    font-size: 20px;
+    color: #9F9F9F;
+}
+
+.cashier-bitcoin-deposit-qroption img {
+    display: block;
+    width: 210px;
+    height: 210px;
+    margin: 20px auto;
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    /* Firefox */
+    image-rendering: -o-crisp-edges;
+    /* Opera */
+    image-rendering: -webkit-optimize-contrast;
+    /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;
+    /* Chrome */
+    image-rendering: optimize-contrast;
+    /* CSS3 Proposed */
+    -ms-interpolation-mode: nearest-neighbor;
+    /* IE8+ */
+}
+
+.cashier-bitcoin-deposit-qroption em {
+    color: #454545;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 10px;
+    font-size: 13px;
+}
+
+.cashier-bitcoin-deposit-qroption em a {
+    display: block;
+    font-size: 15px;
+}
+
+.cashier-bitcoin-deposit-linkoption {
+    padding: 70px 40px 0px;
+}
+
+.cashier-bitcoin-deposit-linkoption .btn {
+    margin: 45px 0 0;
+}
+
+.cashier-bitcoin-deposit-countdown,.cashier-crypto-countdown {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    height: 1.3em;
+}
+
+p .cashier-bitcoin-deposit-countdown, p .cashier-crypto-countdown {
+    display: inline-block;
+}
+
+.cashier-bitcoin-deposit-details-container {
+    padding: 5px 0;
+}
+
+.cashier-bitcoin-deposit-details-container p {
+    color: #454545;
+    line-height: 1.2em;
+}
+
+.cashier-bitcoin-deposit-details-collapse .icon {
+    margin-left: 10px;
+    transition: transform 0.3s;
+}
+
+.cashier-bitcoin-deposit-details-collapse:not(.collapsed) .icon {
+    transform: rotate(180deg);
+}
+
+.cashier-crypto-walletaddress {
+    text-align: center;
+    color: #454545;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 0.77em;
+}
+
+.cashier-crypto-walletaddress a {
+    display: block;
+    font-size: 15px;
+}
+
+/* document upload widget */
+
+.widget-fileupload {
+    text-align: center;
+  }
+  .widget-fileupload input {
+    position: absolute;
+    left: -2000px; /* make not visible */
+  }
+  .fileupload-cta-first {
+    display: block;
+    font-weight: 600;
+    color: #F32D28;
+    font-size: 14px;
+  }
+  .fileupload-cta-first .icon {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  .fileupload-cta-subsequent {
+    display: none;
+    text-align: center;
+    font-weight: 600;
+    color: #F32D28;
+    font-size: 14px;
+  }
+  .fileupload-cta-subsequent .icon {
+    width: 31px;
+    height: 31px;
+    margin-right: 5px;
+  }
+  .fileupload-uploading {
+    padding: 0 25px 0 30px;
+  }
+  .fileupload-status {
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+  }
+  .fileupload-item {
+    background: #C7C7C2;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 0 25px;
+  }
+  .fileupload-abort {
+    float: right;
+    font-weight: 600;
+    color: #F32D28;
+    padding: 3px 10px;
+    font-size: 24px;
+    line-height: 24px;
+    margin: -5px -40px 0 0;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+  .fileupload-item .icon-spinner {
+    float: left;
+    margin-left: -30px;
+    animation: spinClockwise 1s linear;
+    animation-iteration-count: infinite;
+  }
+  .fileupload-progress {
+    display: block;
+    height: 3px;
+    margin: 9px 0 5px;
+    background: #D8D8D8;
+  }
+  .fileupload-progress-bar {
+    display: block;
+    height: 3px;
+    background: #F32D28;
+    width: 0%;
+    transition: width 0.2s linear;
+  }
+  .fileupload-percent {
+    float: left;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .fileupload-size {
+    float: right;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .fileupload-done {
+    display: none;
+  }
+  .fileupload-done > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .fileupload-thumb img {
+    display: inline-block;
+    max-width: 40px;
+    max-height: 40px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .fileupload-filename {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow-hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    font-weight: 500;
+    padding-left: 5px;
+    color: #000;
+    cursor: pointer;
+  }
+  .fileupload-remove {
+    padding: 5px 10px 7px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+  }
+  .fileupload-zoom {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.75);
+  }
+  .fileupload-zoom-inner1 {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  .fileupload-zoom-inner2 {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .fileupload-zoom-inner3 {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    background: #000;
+    max-width: 85%;
+  }
+  .fileupload-zoom .icon {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+  }
+  .fileupload-zoom img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 350px;
+  }
+  
+  @keyframes spinClockwise {
+    0%   { transform: rotate(0deg); }
+    100%   { transform: rotate(360deg); }
+  }
+/** cashier bitcoin text copy **/
+
+.widget-chashier-bitcoin-textcopy,
+.widget-chashier-bitcoin-textcopyTAG,
+.widget-chashier-bitcoin-textcopy-alternate,
+.widget-chashier-crypto-textcopy {
+    color: #F32D28;
+}
+
+.widget-chashier-bitcoin-textcopy input,
+.widget-chashier-bitcoin-textcopyTAG input,
+.widget-chashier-crypto-textcopy input,
+.widget-chashier-bitcoin-textcopy-alternate input {
+    font: inherit;
+    color: inherit;
+    border: none;
+    padding: 0;
+    width: 350px;
+    cursor: text;
+}
+@media all and (max-width: 768px) {
+    .widget-chashier-crypto-textcopy input {
+      width: 240px;
+      font-size: 12px;
+    }
+  }
+.widget-chashier-bitcoin-textcopyinput:focus,
+.widget-chashier-crypto-textcopyinput:focus,
+.widget-chashier-bitcoin-textcopyTAGinput:focus {
+    outline: none;
+}
+
+.widget-chashier-bitcoin-textcopy em,
+.widget-chashier-bitcoin-textcopyTAG em,
+.widget-chashier-crypto-textcopy em,
+.widget-chashier-bitcoin-textcopy-alternate em {
+    display: block;
+    color: inherit;
+    opacity: 0;
+    transition: opacity 0.5s;
+    font-size: 10px;
+}
+
+.widget-chashier-bitcoin-textcopy em,
+.widget-chashier-bitcoin-textcopyTAG em.active,
+.widget-chashier-crypto-textcopy em.active,
+.widget-chashier-bitcoin-textcopy-alternate em.active {
+    opacity: 1;
+}
+
+.flex-box {
+    display: flex;
+}
+
+@media all and (min-width: 120px) {
+    .widget-chashier-bitcoin-textcopy span.flex-box input,
+    .widget-chashier-bitcoin-textcopyTAG span.flex-box input,
+    .widget-chashier-bitcoin-textcopy-alternate span.flex-box input {
+        font-size: 0.82em;
+        width: 250px;
+    }
+    .widget-chashier-bitcoin-textcopy span.flex-box span.icon-copy,
+    .widget-chashier-bitcoin-textcopyTAG span.flex-box span.icon-copy,
+    .widget-chashier-bitcoin-textcopy-alternate span.flex-box span.icon-copy {
+        width: 17px;
+        height: 21px;
+    }
+}
+
+
+/** cashier success **/
+
+.cashier-success-amount {
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.cashier-success-amount strong {
+    font-size: 45px;
+    line-height: 0.9em;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cashier-success-descriptor {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cashier-success-descriptor button {
+    margin-top: 50px;
+}
+
+.cashier-success-descriptor .row p {
+    color: #2D2E2C;
+    font-size: 15px;
+}
+
+.cashier-success-descriptor>p {
+    font-size: 13px;
+}
+
+.cashier-success-descriptor div strong {
+    font-style: normal;
+    font-size: 24px;
+}
+
+.cashier-success-descriptor>small {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    display: block;
+    color: #C7C7C2;
+    font-size: 14px;
+    font-weight: inherit;
+}
+
+.cashier-success-descriptor .simple-bigcheckbox {
+    max-width: 260px;
+    margin: 10px auto;
+    text-align: left;
+    color: #000;
+    padding-left: 50px;
+}
+
+.cashier-success-descriptor .simple-bigcheckbox-proxy {
+    float: left;
+    margin-left: -50px;
+}
+
+.cashier-success-descriptor strong {
+    color: #000;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.cashier-success-descriptor-emphasised {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cashier-success-descriptor-emphasised .row+.row {
+    border-top: 1px solid #eee;
+    margin-top: -5px;
+    padding-top: 10px;
+}
+
+.cashier-success-descriptor-emphasised small {
+    font-size: 11px;
+    color: #666;
+}
+
+.cashier-success-descriptor-emphasised+small {
+    border-top: none;
+}
+
+
+/* cashier balance */
+
+.widget-cashier-balance {
+    position: relative;
+    margin: 20px auto;
+    padding: 26px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    background: #F32D28;
+}
+
+.widget-cashier-balance-dots {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    right: 13px;
+    bottom: 13px;
+}
+
+.widget-cashier-balance-dot1,
+.widget-cashier-balance-dot2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: none;
+    /* shown by JS */
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    margin: -13px 0 0 -13px;
+    /* use gradient for this background so that it only renders if the pie-gradient renders */
+    background: linear-gradient(0deg, #2D2E2C 0%, #2D2E2C 100%) 0 0;
+}
+
+.widget-cashier-balance-inner {
+    width: 198px;
+    height: 198px;
+    border-radius: 110px;
+    background: #fff;
+    color: #90918D;
+    text-align: center;
+    padding: 50px 0 0;
+}
+
+.widget-cashier-balance strong {
+    display: block;
+    font-size: 34px;
+    line-height: 1em;
+    color: red;
+    font-weight: 700;
+}
+
+.widget-cashier-balance strong.widget-countup-finished {
+    animation: popOut 1s ease-in-out;
+}
+
+.cashier-balance-amounts {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cashier-balance-amounts .row {
+    margin-bottom: 20px;
+}
+
+.cashier-balance-amounts .row .col-6:first-child {
+    border-right: 1px solid #90918D;
+}
+
+.cashier-balance-amounts .btn-group, .btn-group.simple-buttontabs {
+   /* display: block;
+    white-space: nowrap;*/
+}
+
+.cashier-balance-amounts .btn-group .btn{
+    width: 50%;
+    padding: 6px;
+    height: 38px;
+    border-width: 2px;
+}
+
+.btn-group.simple-buttontabs .btn {
+    width: 50%;
+    /*padding: 6px;*/
+    /*height: 38px;*/
+    border-width: 2px;
+    /*TODO font-size: 16px*/
+}
+
+.cashier-balance-amounts .btn-default, .btn-group.simple-buttontabs .btn-default {
+    border-color: #F32D28;
+    color: #F32D28;
+    background-color: #fff;
+}
+@media all and (min-width: 768px) {
+    .form-cashier-creditcard .form-group {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* DinersClub */
+
+.form-cashier-creditcard .form-group:not(.has-danger) input.dinersclub {
+    background-image: url(../img/icon-cardtype-DinersClub.gif);
+    background-size: 46px 14px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.form-cashier-creditcard .form-group.has-success input.dinersclub {
+    background-image: url(../img/icon-greentick.svg), url(../img/icon-cardtype-DinersClub.gif);
+    background-position: right 54px center, right center;
+    background-size: 15px 12px, 46px 14px;
+}
+
+
+/* Dankort */
+
+.form-cashier-creditcard .form-group:not(.has-danger) input.dankort {
+    background-image: url(../img/icon-cardtype-Dankort.gif);
+    background-size: 46px 14px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.form-cashier-creditcard .form-group.has-success input.dankort {
+    background-image: url(../img/icon-greentick.svg), url(../img/icon-cardtype-Dankort.gif);
+    background-position: right 54px center, right center;
+    background-size: 15px 12px, 46px 14px;
+}
+
+
+/* unionpay */
+
+.form-cashier-creditcard .form-group:not(.has-danger) input.unionpay {
+    background-image: url(../img/icon-cardtype-UnionPay.gif);
+    background-size: 46px 14px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.form-cashier-creditcard .form-group.has-success input.unionpay {
+    background-image: url(../img/icon-greentick.svg), url(../img/icon-cardtype-UnionPay.gif);
+    background-position: right 54px center, right center;
+    background-size: 15px 12px, 46px 14px;
+}
+
+
+/* JCB */
+
+.form-cashier-creditcard .form-group:not(.has-danger) input.jcb {
+    background-image: url(../img/icon-cardtype-JCB.gif);
+    background-size: 46px 14px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.form-cashier-creditcard .form-group.has-success input.jcb {
+    background-image: url(../img/icon-greentick.svg), url(../img/icon-cardtype-JCB.gif);
+    background-position: right 54px center, right center;
+    background-size: 15px 12px, 46px 14px;
+}
+
+
+/* Electron */
+
+.form-cashier-creditcard .form-group:not(.has-danger) input.electron {
+    background-image: url(../img/icon-cardtype-Electron.gif);
+    background-size: 46px 14px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.form-cashier-creditcard .form-group.has-success input.electron {
+    background-image: url(../img/icon-greentick.svg), url(../img/icon-cardtype-Electron.gif);
+    background-position: right 54px center, right center;
+    background-size: 15px 12px, 46px 14px;
+}
+
+
+/* maestro */
+
+.form-cashier-creditcard .form-group:not(.has-danger) input.maestro {
+    background-image: url(../img/icon-cardtype-Maestro.gif);
+    background-size: 46px 14px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.form-cashier-creditcard .form-group.has-success input.maestro {
+    background-image: url(../img/icon-greentick.svg), url(../img/icon-cardtype-Maestro.gif);
+    background-position: right 54px center, right center;
+    background-size: 15px 12px, 46px 14px;
+}
+
+
+/* visa */
+
+.form-cashier-creditcard .form-group:not(.has-danger) input.visa {
+    background-image: url(../img/icon-cardtype-visa.svg);
+    background-size: 46px 14px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.form-cashier-creditcard .form-group.has-success input.visa {
+    background-image: url(../img/icon-greentick.svg), url(../img/icon-cardtype-visa.svg);
+    background-position: right 54px center, right center;
+    background-size: 15px 12px, 46px 14px;
+}
+
+
+/* mastercard */
+
+.form-cashier-creditcard .form-group:not(.has-danger) input.mastercard {
+    background-image: url(../img/icon-cardtype-mastercard.svg);
+    background-size: 28px 32px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.form-cashier-creditcard .form-group.has-success input.mastercard {
+    background-image: url(../img/icon-greentick.svg), url(../img/icon-cardtype-mastercard.svg);
+    background-position: right 36px center, right center;
+    background-size: 15px 12px, 28px 32px;
+}
+
+
+/* amex */
+.form-cashier-creditcard .form-group:not(.has-danger) input.amex,
+.form-cashier-creditcard .form-group:not(.has-danger) input.americanexpress {
+    background-image: url(../img/icon-cardtype-amex.svg);
+    background-size: 23px 23px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.form-cashier-creditcard .form-group.has-success input.amex,
+.form-cashier-creditcard .form-group.has-success input.americanexpress {
+    background-image: url(../img/icon-greentick.svg), url(../img/icon-cardtype-amex.svg);
+    background-position: right 31px center, right center;
+    background-size: 15px 12px, 23px 23px;
+}
+
+.creditcard-saved-toggle {
+    margin-bottom: 20px;
+}
+
+/* discover */
+
+.form-cashier-creditcard .form-group:not(.has-danger) input.discover {
+    background-image: url(../img/icon-cardtype-Discover.gif);
+    background-size: 45px 22px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+.form-cashier-creditcard .form-group.has-success input.discover {
+    background-image: url(../img/icon-greentick.svg), url(../img/icon-cardtype-Discover.gif);
+    background-position: right 45px center, right center;
+    background-size: 20px 12px, 55px 25px;
+}
+
+
+/* Echeck */
+
+.simple-view .echeck.has-danger .form-control-danger {
+    background-image: url(../img/icon-redcross.svg) !important;
+    background-position: right 20px center;
+    background-size: 11px 11px;
+}
+
+.simple-view .echeck.has-success input.form-control-success {
+    background-image: url(../img/icon-greentick.svg);
+    background-position: right 20px center;
+    background-size: 15px 12px;
+}
+
+.cashier-bonus-inputs {
+    min-height: 65px;
+}
+
+.cashier-bonus-trigger {
+    display: block;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cashier-bonus-trigger:active,
+.cashier-bonus-trigger:focus {
+    outline: none;
+    color: #F32D28;
+}
+
+.cashier-bonus-trigger .icon {
+    margin: -3px 0 3px 5px;
+}
+.modal-absolute {
+    position: absolute;
+    bottom: auto;
+    overflow: none;
+  }
+.cashier-bonus-modal .modal-header {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px 15px;
+}
+
+.cashier-bonus-modal .card {
+    border: none;
+}
+
+.cashier-bonus-modal .card code {
+    color: #F32D28;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.cashier-bonus-modal .card+.card, .cashier-bonus-modal .card {
+    border-top: 1px solid #F1F0F0;
+}
+
+.cashier-bonus-modal .card-header {
+    background: transparent;
+    border: none;
+    padding: 15px 0;
+    white-space: nowrap;
+}
+
+.cashier-bonus-modal .modal-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.cashier-bonus-modal .card-header a:hover,
+.cashier-bonus-modal .card-header a:active,
+.cashier-bonus-modal .card-header a:focus {
+    text-decoration: none;
+    color: #F32D28;
+}
+
+.cashier-bonus-modal .card-header .icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cashier-bonus-modal .card-header strong {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 10px;
+}
+
+.cashier-bonus-modal .card-header em {
+    white-space: normal;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal;
+    /*TODO Review font-size: 18px;
+    padding-top: 2px;*/
+}
+
+@media all and (max-width: 340px) {
+    .cashier-bonus-modal .card-header .icon {
+        transform: scale(0.8);
+        margin: 0 -10px;
+    }
+    .cashier-bonus-modal .card-header strong {
+        font-size: 30px;
+    }
+}
+
+.cashier-bonus-modal .card-block {
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.cashier-bonus-modal .btn-primary {
+    margin-top: 10px;
+}
+
+.cashier-bonus-modal .cashier-bonus-otherinput {
+    font-size: 32px;
+    text-align: center;
+    margin: 10px 0 40px;
+}
+
+.cashier-bonus-modal .btn-link {
+    display: block;
+    text-align: center;
+    margin: 10px auto 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* extra bonus modal */
+
+.cashier-extrabonus-modal p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  .cashier-extrabonus-modal .icon {
+    display: block;
+    width: 117px;
+    height: 100px;
+    margin: 20px auto;
+  }
+  .cashier-extrabonus-modal .btn {
+    width: 100%;
+  }
+  
+  /* togglelabel */
+  
+  .togglelabel {
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .togglelabel input {
+    position: absolute;
+    left: -2000px;
+  }
+  .togglelabel input:checked ~ * .togglelabel-showunchecked,
+  .togglelabel input:not(:checked) ~ * .togglelabel-showchecked {
+    visibility: hidden;
+    position: absolute;
+  }
+  .togglelabel-circleitem {
+    display: block;
+    margin: 5px auto;
+    width: 94px;
+    height: 94px;
+    line-height: 92px;
+    border-radius: 47px;
+    background: #858682;
+    cursor: pointer;
+  }
+  .togglelabel-circleitem:hover {
+    background: #777;
+  }
+  .togglelabel input:checked ~ .togglelabel-circleitem {
+    background: #F32D28;
+  }
+  /* back-tip */
+
+.back-tip {
+    display: none; /* only show if enough space */
+    position: absolute;
+    top: 10px;
+    color: #F32D28;
+    font-weight: 600;
+  }
+  .back-tip-alwaysshow { 
+    display: block;
+  }
+  .back-tip .dotbutton span {
+    display: inline-block;
+    font-size: 20px;
+    transform: scale(0.7,1);
+  }
+  
+
+/* help tip */
+
+.help-tip {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    white-space: nowrap;
+}
+
+.help-tip-mobile {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    white-space: nowrap;
+}
+
+@media all and (max-width: 340px) {
+    .help-tip {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .help-tip {
+        left: 50%;
+        margin-left: -350px;
+    }
+    .widget-modelcontents .help-tip {
+        top: 10px;
+        left: 10px;
+        margin-left: 0;
+    }
+}
+
+.help-tip-contents {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.help-tip-mobile-contents {
+    top: 0;
+    left: 0;
+}
+
+.help-tip-mobile-contents p {
+    font-size: 11px;
+    margin: 0;
+    padding: 0 0 0 8px;
+}
+
+*/ .help-tip-contents p {
+    font-size: 11px;
+    margin: 0;
+    padding: 0 0 0 8px;
+}
+
+.simple-view-error .help-tip {
+    color: #fff;
+}
+
+.simple-copy-small p {
+    font-size: 14px;
+}
+
+.simple-view-error .dotbutton {
+    background: #fff;
+    color: #F32D28;
+    border-color: #F32D28;
+}
+
+.button-reset {
+    -webkit-appearance: none;
+    background: none !important;
+    color: inherit;
+    border: none;
+    padding: 0! important;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit !important;
+}
+
+.dotbutton {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 20px;
+    border: 6px solid #fff;
+    background: #F32D28;
+    color: #fff;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.dotbutton:focus,
+.dotbutton:active {
+    outline: none;
+}
+
+.dotbutton big {
+    font-size: 20px;
+}
+
+.dotbutton-sm {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    line-height: 22px;
+}
+
+.widget-cashier-balance {
+    background: linear-gradient(256deg, transparent 50%, rgb(243, 45, 40) 50.1%) 0px 0px, linear-gradient(90deg, rgb(243, 45, 40) 50%, rgb(45, 46, 44) 50.1%) 0px 0px;
+}
+
+.launch {
+    border-color: #254669;
+    background-color: #fff;
+    color: #254669;
+}
+
+.logo-cryptocurrency {
+    background-position: right 20px center, right center !important;
+    background-size: 45px 15px, 32px 32px !important;
+}
+
+
+/** Alert Section Message **/
+
+.alert-box {
+    color: #111;
+    border-radius: 10px;
+    font-family: Tahoma, Geneva, Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 36px;
+    margin: 10px;
+}
+
+.success {
+    border: 1px solid #a6ca8a;
+}
+
+.warning {
+    border: 1px solid #F9F9F9;
+    background-color: #EDEDEC;
+}
+
+.message {
+    border: 1px solid #F9F9F9;
+    background-color: #EDEDEC;
+    font-family: Tahoma, Geneva, Arial, sans-serif;
+    font-size: 12px;
+    padding: 10px 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.error {
+    border: 1px solid #ebccd1;
+    background-color: #f2dede;
+}
+
+
+/* back-tip */
+
+.back-tip {
+    display: block;
+    /* only show if enough space */
+    position: absolute;
+    top: 10px;
+    color: #F32D28;
+    font-weight: 600;
+}
+
+.back-tip .dotbutton span {
+    display: inline-block;
+    font-size: 20px;
+    transform: scale(0.7, 1);
+}
+
+.help-tip2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    white-space: nowrap;
+}
+
+.help-tip strong {
+    display: none;
+    color: #F32D28;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.help-tip-expanded strong {
+    display: inline-block;
+    transform-origin: 0 0;
+    animation: revealLeft 0.5s;
+    animation-fill-mode: backwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes revealLeft {
+    0% {
+        transform: scale(0, 1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@media all and (max-width: 340px) {
+    .help-tip {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .layout-graybarcontent-inner .help-tip {
+        left: auto;
+        right: 15px;
+    }
+    .layout-graybarcontent-inner .help-tip2 {
+        left: auto;
+        right: 15px;
+        position: absolute;
+        float: right;
+    }
+    .back-tip {
+        display: block;
+    }
+    .layout-graybarcontent-inner .help-tip strong {
+        display: inline-block;
+    }
+    .widget-modelcontents .help-tip {
+        top: 10px;
+        left: 10px;
+        right: auto;
+    }
+}
+
+.simple-view-error .help-tip {
+    color: #fff;
+}
+
+.modal-narrow .modal-dialog {
+    text-align: center;
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+.help-modal strong {
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.help-modal .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.help-modal p {
+    font-size: 14px;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.help-modal .close {
+    opacity: 1;
+}
+
+.help-modal .close:hover {
+    opacity: 0.9;
+}
+
+
+/* navactionlist */
+
+.navactionlist {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.navactionlist a {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 18px 0;
+    color: #F32D28 !important;
+}
+
+.navactionlist a:hover {
+    color: #F32D28;
+}
+
+.navactionlist a+a {
+    border-top: 1px solid #F1F1F1;
+}
+
+.navactionlist a .icon {
+    margin-right: 15px;
+}
+
+
+/* safety footer */
+
+.safety-footer {
+    display: flex;
+    width: 100%;
+    max-width: 720px;
+    margin: 30px auto 0;
+    border-top: 1px solid #eaeaea;
+    padding: 20px 0;
+    text-align: left;
+    font-size: 10px;
+    color: #000;
+    font-weight: 700;
+    opacity: 0.75;
+    overflow: hidden;
+}
+
+.safety-footer div {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.safety-footer div:before {
+    float: left;
+    content: "";
+    width: 1px;
+    height: 40px;
+    background: #eaeaea;
+    margin-left: -1px;
+}
+
+.safety-footer strong {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.safety-footer em {
+    display: block;
+    font-size: 8px;
+    line-height: 10px;
+}
+
+.safety-footer .icon {
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+body .safety-footer-mobileonly {
+    display: none;
+}
+
+.modal .safety-footer {
+    opacity: 0.22;
+    /* desired color: #c7c7c7 */
+}
+
+
+/* adjustments for mobile and modals */
+
+@media all and (max-width: 768px) {
+    body .safety-footer-desktoponly {
+        display: none;
+    }
+    body .safety-footer-mobileonly {
+        display: inline-block;
+        padding: 0;
+    }
+    body .safety-footer .icon {
+        display: inline-block;
+        margin: 0 5px 0 0;
+    }
+}
+
+
+/* adjustments below should be identical to media query above */
+
+body .modal .safety-footer-desktoponly {
+    display: none;
+}
+
+body .modal .safety-footer-mobileonly {
+    display: inline-block;
+    padding: 0;
+}
+
+body .modal.safety-footer .icon {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+
+/* adjustments below should be identical to media query above */
+
+body .widget-modelcontents .safety-footer-desktoponly {
+    display: none;
+}
+
+body .widget-modelcontents .safety-footer-mobileonly {
+    display: inline-block;
+    padding: 0;
+}
+
+body .widget-modelcontents .modal.safety-footer .icon {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+
+/* redirect countdown */
+
+.widget-redirect-countdown {
+    position: relative;
+    margin: 20px 0;
+}
+
+.widget-redirect-countdown strong {
+    position: absolute;
+    color: #F32D28;
+    font-weight: 500;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 93px;
+    line-height: 93px;
+    font-size: 20px;
+}
+
+.graphic-spinner {
+    display: block;
+    margin: 0 auto;
+    background-image: url(../img/graphic-spinner.svg);
+    width: 93px;
+    height: 93px;
+}
+
+
+/* provider exit dialog */
+
+.modal-title {
+    display: block;
+    width: 80%;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+
+.provider-exit-modal small {
+    display: block;
+    text-align: center;
+    color: #969793;
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+
+/* next actions */
+
+.nextactions {
+    max-width: 660px;
+    margin: 20px auto;
+    text-align: center;
+    ;
+}
+
+.nextactions strong {
+    display: block;
+    font-size: 20px;
+}
+
+.nextactions nav {
+    width: 100%;
+    display: flex;
+    padding: 30px 0;
+}
+
+.nextactions nav a {
+    flex-grow: 1;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nextactions nav a+a {
+    border-left: 1px solid #eee;
+}
+
+.nextactions nav a .icon {
+    display: block;
+    margin: 0 auto 5px;
+}
+
+
+/* tooltip */
+
+.tooltip.show {
+    opacity: 1;
+}
+
+.tooltip-inner {
+    background: #EEEEED;
+    font-size: 12px;
+    font-style: italic;
+    color: #737373;
+    text-align: justify;
+    padding: 10px 16px;
+}
+
+.tooltip.bs-tether-element-attached-bottom .tooltip-inner::before,
+.tooltip.tooltip-top .tooltip-inner::before {
+    border-top-color: #EEEEED;
+}
+
+.tooltip.bs-tether-element-attached-right .tooltip-inner::before,
+.tooltip.tooltip-left .tooltip-inner::before {
+    border-left-color: #EEEEED;
+}
+
+.tooltip.bs-tether-element-attached-left .tooltip-inner::before,
+.tooltip.tooltip-right .tooltip-inner::before {
+    border-right-color: #EEEEED;
+}
+
+.tooltip.bs-tether-element-attached-top .tooltip-inner::before,
+.tooltip.tooltip-bottom .tooltip-inner::before {
+    border-bottom-color: #EEEEED;
+}
+
+.simpletalert {
+    background: #EEEEED;
+    border-radius: 8px;
+    padding: 10px;
+    font-style: italic;
+    font-size: 14px;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+@media all and (max-width: 768px) {
+    .simpletalert {
+        font-size: 11px;
+    }
+}
+
+.altcoin-deposit .cashier-crypto-walletaddress {
+    margin-top: 30px;
+    font-size: 20px;
+    border-bottom: 1px solid #EAEAEA;
+    line-height: 1.25em;
+}
+
+.altcoin-deposit-timercopy {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media all and (min-width: 769px) {
+    .altcoin-deposit-timercopy {
+        margin: 30px -30px;
+    }
+    .altcoin-deposit .simpletalert {
+        margin: 30px 0 50px;
+    }
+}
+
+.altcoin-deposit .cashier-crypto-countdown {
+    color: #000;
+    margin-top: -15px;
+    font-size: 35px;
+}
+
+@media all and (min-width: 768px) {
+    .cashier-amount-wide>div,
+    .cashier-amount-wide>button {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cashier-amount-wide .cashier-depositoptions {
+        max-width: 600px;
+    }
+}
+
+
+/* infoblock */
+
+.infoblock {
+    margin: 20px -20px 10px;
+}
+
+.infoblock header {
+    position: relative;
+    background: #4A4A4A;
+    padding: 15px 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+
+.infoblock header::after {
+    /* fancy trick to make a down arrow */
+    content: " ";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    border: 12px solid #EEEEED;
+    border-top-color: #4A4A4A;
+    border-bottom: none;
+    margin-left: -12px;
+}
+
+.infoblock header strong {
+    display: block;
+    font-size: 20px;
+}
+
+.infoblock-body {
+    padding: 30px 20px;
+    background: #EEEEED;
+    color: #4A4A4A;
+    font-size: 14px;
+}
+
+.infoblock-body li+li {
+    margin-top: 10px;
+}
+
+.infoblock-body em {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.infoblock-body a {
+    font-weight: 500;
+}
+
+
+/* stepcircles */
+
+.stepcircles {
+    display: block;
+    text-align: center;
+    /*TODO Review padding: 10px 0;*/
+}
+
+.stepcircles-item {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.stepcircles-item span {
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 9px;
+    color: #fff;
+    background: #4A4A4A;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.stepcircles-disabled span {
+    background: #EEEEED;
+}
+
+.stepcircles-on span {
+    background: #90918D;
+}
+
+.stepcircles-withprint {
+    max-width: 350px;
+    margin: 0 auto;
+    padding-left: 100px;
+    margin-bottom: 10px;
+}
+
+.stepcircles-withprint>a {
+    float: right;
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+@media all and (max-width: 767px) {
+    .stepcircles-withprint {
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .stepcircles-withprint a {
+        display: none;
+    }
+}
+
+
+/* tanbox */
+
+.tanbox {
+    background: #EEEEED;
+    margin: 0 -20px;
+    padding: 10px 20px;
+}
+
+.tanbox strong {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tanbox .form-control {
+    background-color: #EEEEED;
+}
+
+@media all and (min-width: 600px) {
+    .tanbox {
+        border-radius: 10px;
+        padding: 15px 30px;
+    }
+}
+
+
+/* resultslip */
+
+.resultslip {
+    position: relative;
+    overflow: hidden;
+    font-size: 18px;
+    color: #000;
+}
+
+.resultslip dt {
+    float: left;
+    clear: both;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.resultslip dd {
+    border-bottom: 1px solid #C7C7C2;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: .5rem;
+    margin-left: 0;
+}
+
+.resultslip dd:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.resultslip b {
+    font-weight: 500;
+}
+.resultslip-withtotal {
+    padding: 20px 0;
+  }
+  .resultslip-withtotal .resultslip dd:last-child {
+    border-bottom: 1px solid #C7C7C2;
+    text-align: right;
+    padding: 5px;
+  }
+  .resultslip-withtotal > strong {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .tanbox-emphasised {
+    margin-bottom: 30px;
+  }
+  .tanbox-emphasised .resultslip {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  @media all and (min-width: 768px) { 
+    .tanbox-emphasised .resultslip { 
+      font-size: 20px;
+    }
+  }
+  .tanbox-emphasised .resultslip dt {
+    font-weight: 500;
+  }
+
+/* moneygram */
+
+.moneygram-confirm .tanbox {
+    margin-bottom: 20px;
+}
+
+@media all and (max-width: 767px) {
+    .moneygram-confirm .tanbox .form-control {
+        font-size: 12px;
+    }
+}
+
+.moneygram-confirm .input-group-addon {
+    padding-left: 0;
+}
+
+@media all and (min-width: 768px) {
+    .moneygram-confirm-pending h2 {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    .moneygram-confirm-pending .simple-copy {
+        color: #333;
+    }
+    .moneygram-confirm-pending .graphic-wait {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* moneygram result */
+
+.cashier-moneygram-result .simple-copy {
+    text-align: center;
+}
+
+.cashier-moneygram-result .simple-copy big {
+    color: #000;
+}
+
+@media all and (min-width: 768px) {
+    .cashier-moneygram-result .simple-copy {
+        text-align: left;
+    }
+    .cashier-moneygram-result .tanbox {
+        background: transparent;
+    }
+    .cashier-moneygram-result .resultslip dt,
+    .cashier-moneygram-result .resultslip dd {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .cashier-moneygram-result .resultslip b {
+        font-weight: 600;
+    }
+}
+
+
+/* cashier sidebar for desktop only */
+
+@media all and (max-width: 950px) :not(.Step1) {
+    .cashier-desktop-sidebar {
+        display: none;
+    }
+}
+
+@media print {
+    /* moneygram tip should be inline when printing */
+    body .cashier-desktop-sidebar {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        width: auto;
+        max-width: 500px;
+        padding-top: 20px;
+    }
+    body .cashier-desktop-sidebar .infoblock header,
+    body .cashier-desktop-sidebar .infoblock-body {
+        background: none;
+        color: #000;
+    }
+    body .cashier-desktop-sidebar .infoblock-body {
+        padding: 0;
+    }
+    body .cashier-desktop-sidebar .infoblock header::after {
+        display: none;
+    }
+}
+
+.cashier-desktop-sidebar {
+    float: left;
+    margin: 55px 0 0 15px;
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cashier-desktop-sidebar .infoblock {
+    margin: 0;
+}
+
+.cashier-desktop-sidebar .infoblock header {
+    font-size: 12px;
+    padding: 15px 5px;
+    line-height: 1.8em;
+}
+
+.cashier-desktop-sidebar .infoblock-body {
+    font-size: 11px;
+}
+
+.infoblock-body ul, .cashier-desktop-sidebar .infoblock-body ul  {
+    padding-left: 15px;
+    list-style: disc;
+}
+
+.cashier-desktop-sidebar .infoblock-body ul li {
+    margin-left: inherit;
+}
+
+.icon-bonus-crypto {
+    background-image: url(../img/icon-bonus-crypto.svg);
+    width: 54px;
+    height: 54px;
+}
+
+.icon-whitepayment-astropaydirect {
+    background-image: url(../img/icon-whitepayment-astropaydirect.svg);
+    width: 65px;
+    height: 27px;
+}
+
+.icon-whitepayment-skrill1tap {
+    background-image: url(../img/icon-whitepayment-skrill1tap.svg);
+    width: 64px;
+    height: 13px;
+}
+
+.icon-whitepayment-przelewy24 {
+    background-image: url(../img/icon-whitepayment-przelewy24.svg);
+    width: 67px;
+    height: 23px;
+}
+
+.icon-whitepayment-giropay {
+    background-image: url(../img/icon-whitepayment-giropay.png);
+    width: 67px;
+    height: 23px;
+}
+
+.icon-whitepayment-dankort {
+    background-image: url(../img/icon-whitepayment-dankort.png);
+    width: 67px;
+    height: 23px;
+}
+
+.icon-whitepayment-cartebleue {
+    background-image: url(../img/icon-whitepayment-cartebleue.png);
+    width: 67px;
+    height: 23px;
+}
+
+#cardListArrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 10px 0 0 5px;
+    cursor: pointer;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+input[type="text"]::selection {
+    background: white;
+}
+
+
+/* Hide HTML5 Up and Down arrows. */
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  /*  -webkit-appearance: none;
+    margin: 0;*/
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.icon-whitepayment-quickbit {
+    background-image: url(../img/icon-whitepayment-quickbit.svg);
+    width: 100px;
+    height: 100px;
+    margin: -8px 0 0 -10px;
+}
+
+.visa-suggestion-card {
+    padding: 10px;
+    background: #CCC;
+    color: #111;
+    border-radius: 9px;
+    font-size: 13px;
+}
+
+@media (max-width: 450px) {
+    .btn-cc-options>button {
+        font-size: 12px !important;
+    }
+    .cashier-paymentoptions.cashier-paymentoptions-wide {
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 100%;
+    }
+}
+
+.card-list-arrow {
+    position: absolute;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 10px 0 0 5px;
+    cursor: pointer;
+}
+
+.echeck .card-list-arrow {
+    margin: 10px 0 0 -12px;
+    border: solid red;
+    border-width: 0 2px 2px 0;
+    padding: 3.7px;
+}
+
+#cardListArrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 10px 0 0 5px;
+    cursor: pointer;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.credit-card-brand-picker {
+    display: block;
+    position: absolute;
+    top: 32px;
+    left: 15px;
+    width: 100%;
+    z-index: 999;
+}
+
+.credit-card-brand-picker li,
+.credit-card-brand-picker li * {
+    cursor: pointer;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+.form-cashier-creditcard .form-group.has-success input.visa,
+.form-cashier-creditcard .form-group.has-success input.maestro,
+.form-cashier-creditcard .form-group.has-success input.electron,
+.form-cashier-creditcard .form-group.has-success input.jcb,
+.form-cashier-creditcard .form-group.has-success input.unionpay,
+.form-cashier-creditcard .form-group.has-success input.dankort,
+.form-cashier-creditcard .form-group.has-success input.dinersclub,
+.form-cashier-creditcard .form-group.has-success input.mastercard,
+.form-cashier-creditcard .form-group.has-success input.amex,
+.form-cashier-creditcard .form-group.has-success input.americanexpress,
+.form-cashier-creditcard .form-group.has-success input.discover {
+    background-image: url(../img/icon-greentick.svg);
+    background-position: right center;
+    background-size: 15px 12px;
+}
+
+.brand-not-allowed {
+    background: #ddd;
+    color: #999;
+}
+
+.credit-card-brand {
+    width: 96%;
+    float: left;
+    margin-bottom: 33px !important;
+}
+
+.short-logo {
+    background-image: url(../img/logo-128-red.png);
+    background-size: 64px 48px;
+    width: 64px;
+    height: 48px;
+    margin: 10px auto 20px;
+}
+
+.simple-close-button.simple-close-button--left {
+    left: 5px;
+    right: auto;
+}
+
+.widget-cashier-balance.widget-cashier-balance--empty {
+    background: radial-gradient(#333 0%, transparent 63%, transparent 66%, #333 100%) !important;
+}
+
+.widget-cashier-balance strong.widget-countup--zero {
+    font-size: 48px;
+}
+
+.simple-stepheading-ep {
+    text-align: center;
+    font-size: 24px;
+    color: #2D2E2C;
+    font-weight: 400;
+    margin: 25px 0 40px;
+    line-height: 1.3em;
+}
+
+.btn-group-ep.simple-buttontabs-ep {
+    display: block;
+    white-space: nowrap;
+}
+
+.btn-group-ep.simple-buttontabs-ep .btn {
+    max-width: 320px;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: all 0.3s;
+    width: 50%;
+    border-width: 2px;
+}
+
+.btn-group-ep.simple-buttontabs-ep .btn-default {
+    border-color: #F32D28;
+    color: #F32D28;
+    background-color: #fff;
+    margin-left: -5px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.btn-group-ep.simple-buttontabs-ep .btn-primary {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.cashier-paymentoptions-large {
+    max-width: 400px;
+    margin: 0 auto 20px;
+}
+
+.cashier-paymentoptions-large .cashier-paymentoptions-item {
+    min-width: 130px;
+}
+
+.circlebutton,
+.cashier-paymentoptions a em {
+    margin-bottom: 15px;
+}
+
+#secondaryPaymentOptions {
+    padding: 25px 35px !important;
+}
+
+.cashier-paymentoptions.cashier-paymentoptions-large a strong,
+.cashier-paymentoptions a strong {
+    color: #4A4A4A;
+}
+
+.btn.btn-link {
+    font-weight: 600;
+    text-decoration: none !important;
+    color: #F32D28 !important;
+    font-size: 18px !important;
+}
+
+.btn.btn-link:hover {
+    text-decoration: underline !important;
+}
+
+.simple-view .btn-options.collapsed .icon-chevron {
+    transform: rotateX(0deg);
+    margin-left: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.simple-view .btn-options .icon-chevron {
+    transform: rotateX(180deg);
+    margin-left: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+#footer-ep footer strong {
+    font-size: 12px !important;
+    color: #333 !important;
+    font-weight: 600 !important;
+}
+
+.icon-chevron {
+    content: url("../img/select-arrow-red.svg");
+}
+
+.icon-close-grey {
+    content: url("../img/icon-close.svg");
+}
+
+.exit-modal p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.exit-modal .btn {
+    font-weight: 400;
+    color: white;
+    background: #F32D28;
+    font-weight: 400;
+    color: white !important;
+    background: #F32D28;
+    padding: 0.7em 2em;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.exit-modal a {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.exit-modal .modal-title {
+    margin: 30px auto 20px;
+}
+
+.exit-modal .navactionlist {
+    text-align: center;
+    margin: 10px 0 15px;
+}
+
+.exit-modal .safety-footer {
+    padding: 10px 0;
+    margin: 20px auto 0;
+}
+
+.exit-modal .close {
+    float: left;
+}
+
+.cashier-success-descriptor .cashier-success-text {
+    margin: 15px auto 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+.cashier-success-descriptor strong {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.cashier-success-descriptor .simple-bigcheckbox {
+    max-width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 10px;
+    text-align: center;
+    color: #F32D28;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 50px;
+}
+
+
+/***********************************************************************************************************************/
+
+.simple-stepheading {
+    text-align: center;
+    font-size: 24px;
+    color: #2D2E2C;
+    font-weight: 400;
+    margin: 25px 0 40px;
+    line-height: 1.3em;
+}
+
+.simple-view .btn-disabled {
+    border-color: #CECECE;
+    background-color: #CECECE;
+    color: #fff;
+}
+
+.simple-view .btn-disabled:focus,
+.simple-view .btn-disabled:hover {
+    border-color: #CECECE;
+    background-color: #CECECE;
+}
+
+.simple-view .form-control {
+    border-radius: 0;
+    border-width: 0;
+    border-bottom: 1px solid #B4B4B4;
+    font-size: 20px;
+    padding: 6px 0 4px;
+    background-position: center right;
+    outline: none !important;
+}
+
+.simple-view .form-control:disabled {
+    background-color: transparent;
+    color: #999;
+}
+
+.simple-view .input-group-addon {
+    font-size: 18px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+.simple-view .form-control-feedback {
+    font-size: 11px;
+    font-style: italic;
+    color: #7F7F7F;
+    margin: 2px 0 -15px;
+    opacity: 1;
+}
+
+.simple-view .echeck .form-control-feedback {
+    width: 96%;
+    position: relative;
+    float: left;
+    z-index: 1;
+}
+
+.simple-view .form-control.form-control-success+.form-control-feedback {
+    opacity: 0;
+}
+
+.simple-view .form-control::-webkit-input-placeholder {
+    color: #7F7F7F;
+}
+
+.simple-view .form-control::-moz-placeholder {
+    color: #4A4A4A;
+}
+
+.simple-view .form-control:-ms-input-placeholder {
+    color: #4A4A4A;
+}
+
+.simple-view .form-group.has-danger.has-danger.has-danger .form-control:before {
+    color: #4A4A4A;
+    /* ios date placeholder */
+}
+
+.simple-mobilewidth {
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.simple-view .btn {
+    max-width: 320px;
+    padding: 0.7em 2em;
+    font-size: 18px;
+    border-radius: 6px;
+    transition: all 0.3s;
+    margin: 0 auto;
+}
+
+.btn.btn-primary {
+    border-color: #EE3536;
+    background-color: #EE3536;
+    color: #fff;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:hover,
+.btn.btn-primary:active {
+    border-color: #EE3536;
+    background-color: #d92623;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    border-color: #EE3536;
+    background-color: #EE3536;
+}
+
+.btn.btn-primary:focus:hover {
+    color: #fff;
+}
+
+.simple-close-button.simple-close-button--left {
+    left: 5px;
+    right: auto;
+}
+
+.simple-close-button--back {
+    background: url(../img/icon-join-back.svg) center center no-repeat;
+    width: 50px;
+    height: 34px;
+}
+
+.head-options {
+    width: 100%;
+    position: absolute;
+    max-width: 1024px;
+}
+
+.head-options-left,
+.head-options-right {
+    width: 50%;
+    position: relative;
+    padding-top: 10px;
+}
+
+.head-options-left {
+    float: left;
+    padding-left: 10px;
+}
+
+.head-options-right {
+    float: right;
+    padding-right: 10px;
+}
+
+.help-option {
+    float: right;
+}
+
+.disclaimer-modal {
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 1rem
+}
+
+.disclaimer {
+    font-size: .8em;
+    color: #000;
+    margin-top: 15px;
+    padding: 3px 0;
+    text-align: center;
+}
+
+.cashier-learn-more {
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #2D2E2C;
+}
+
+.cashier-learn-more:active,
+.cashier-learn-more:hover {
+    text-decoration: underline !important;
+}
+
+.cashier-paymentoptions-item:hover {
+    cursor: pointer
+}
+
+.icon-whitepayment-zelle {
+    background-image: url(../img/icon-whitepayment-zelle.svg);
+    width: 45px;
+    height: 45px;
+}
+
+.icon-whitepayment-zelle--big {
+    background-image: url(../img/icon-whitepayment-zelle.svg);
+    width: 72px;
+    height: 72px;
+}
+
+.cashier-paymentoptions-item>div {
+    position: relative;
+    z-index: 2;
+}
+
+.cashier-paymentoptions-item .tag--new {
+    position: absolute;
+    top: 2px;
+    right: -6.45px;
+    width: 60px;
+    height: 18px;
+    background: #ee3536;
+    z-index: 1;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    font-style: italic;
+    padding: 2px;
+    opacity: 0;
+}
+
+.cashier-paymentoptions-item.slideIn .tag--new {
+    animation: slideOut1 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.cashier-paymentoptions-item:hover .circlebutton.circlebutton--purple {
+    background: #6C1ED4;
+}
+
+.cashier-paymentoptions-item.slideIn .svg {
+    animation: slideOut 0.55s ease-out;
+    animation-fill-mode: forwards;
+}
+
+.cashier-paymentoptions-item .svg {
+    position: absolute;
+    right: -28px;
+    top: 2px;
+    width: 40px;
+    height: 38px;
+    z-index: -1;
+    transform: translateX(-55px) translateY(25px);
+}
+
+.replaced-svg {
+    background-image: url(../img/new-tag.svg);
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 34px;
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateX(-55px) translateY(25px);
+    }
+    to {
+        transform: translateX(0px) translateY(0px);
+    }
+}
+
+@keyframes slideOut1 {
+    from {
+        width: 0;
+        opacity: 1;
+    }
+    to {
+        width: 60px;
+        opacity: 1;
+    }
+}
+
+.simple-view .form-group.zelle {
+    padding: 20px;
+    background: #EEEEED;
+    border-radius: 15px;
+    width: 350px
+}
+
+.simple-view .form-group.zelle .form-field-header {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #4A4A4A;
+}
+
+.simple-view .form-group.zelle .form-control {
+    padding: 5px;
+    font-size: 16px;
+    background: transparent;
+    color: #9b9b9b;
+}
+
+.simple-view .simple-formarea>div {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.simple-view .simple-formarea+form input.bank::placeholder,
+.simple-view .simple-formarea+form input.bank,
+.simple-view .simple-formarea+form input.bank:focus,
+.simple-view .simple-formarea+form input.bank:active {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    color: #9B9B9B;
+    background: transparent;
+    box-shadow: inset 0 0 50px transparent;
+    border: none;
+    border-bottom: 1px solid #9B9B9B;
+    padding: 5px 0;
+}
+
+.simple-view .simple-formarea+form input.bank::placeholder {
+    border-bottom: none;
+}
+
+.simple-view .simple-formarea+form input.bank,
+.simple-view .simple-formarea+form input.bank:visited {
+    color: #4A4A4A;
+}
+
+.simple-view .form-group {
+    position: relative;
+    margin: 0 auto 40px;
+}
+
+.creditcard-QuickDeposit {
+    margin-top: 20px !important;
+    margin-bottom: 70px !important;
+}
+
+.simple-view .form-group.zelle {
+    padding: 20px;
+    background: #EEEEED;
+    border-radius: 5px;
+}
+
+.simple-view .form-group.zelle .form-field-header {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #4A4A4A;
+}
+
+.simple-view .form-group.zelle .form-control {
+    padding: 5px;
+    font-size: 16px;
+    background: transparent;
+    color: #9b9b9b;
+}
+
+/********TODO CHECK THIS********/
+/* tanbox */
+
+/*.tanbox {
+    background: #EEEEED;
+    margin: 0 -35px;
+    padding: 10px 20px;
+}
+
+.tanbox strong {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tanbox .form-control {
+    background-color: #EEEEED;
+}
+
+@media all and (min-width: 600px) {
+    .tanbox {
+        border-radius: 10px;
+        padding: 15px 30px;
+    }
+}*/
+
+.memobox {
+    position: relative;
+    background: black;
+    color: white;
+    padding: 40px 30px 20px;
+    margin: 0 -35px;
+    border-radius: 10px;
+}
+
+.memobox:after {
+    content: '';
+    top: 0;
+    left: calc(50% - 20px);
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #eeeeed;
+}
+
+.memobox hr {
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.memobox>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.memobox span {
+    font-weight: 800;
+}
+
+.memobox #traceId {
+    color: #ee3536;
+}
+
+.memobox button {
+    display: inline-block;
+    background: transparent;
+    border: transparent;
+    transition-duration: 0.3s;
+}
+
+.memobox button:active img {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 2555, 0.5));
+}
+
+
+/* stepcircles */
+
+.stepcircles {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.stepcircles-item {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.stepcircles-item span {
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 9px;
+    color: #fff;
+    background: #4A4A4A;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.stepcircles-disabled span {
+    background: #EEEEED;
+}
+
+.stepcircles-on span {
+    background: #90918D;
+}
+
+.stepcircles-withprint {
+    max-width: 350px;
+    margin: 0 auto;
+    padding-left: 100px;
+    margin-bottom: 10px;
+}
+
+.stepcircles-withprint>a {
+    float: right;
+    font-weight: 600;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+@media all and (max-width: 767px) {
+    .stepcircles-withprint {
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .stepcircles-withprint a {
+        display: none;
+    }
+}
+
+
+/*
+  For Deposit Count Table on viewECheckAmount.asp
+  Modfied.
+*/
+
+.successDepositTable {
+    position: relative;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 230px;
+    height: 86px;
+    background-color: #F2F2F2;
+    border-radius: 7px;
+    color: #7c7c7c;
+    font-size: 14px;
+}
+
+.depositRow {
+    position: relative;
+    width: 100%;
+    height: 33.3%;
+}
+
+.columnTitle2 {
+    position: absolute;
+    margin: auto auto;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.columnNumber2 {
+    position: absolute;
+    margin: auto auto;
+    top: 0;
+    bottom: 0;
+    right: 35px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+
+.columnTitle1 {
+    position: absolute;
+    margin: auto auto;
+    top: 0;
+    bottom: 0;
+    right: 25%;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.rowLabel {
+    position: absolute;
+    margin: auto auto;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.firstBorder {
+    position: absolute;
+    width: 56%;
+    height: 2px;
+    bottom: 0;
+    right: 20px;
+    background-color: #D9D9D9;
+}
+
+.secondBorder {
+    position: absolute;
+    width: 88%;
+    height: 2px;
+    bottom: 0;
+    right: 20px;
+    background-color: #D9D9D9
+}
+
+.verticalBorder {
+    position: absolute;
+    width: 2px;
+    height: 85%;
+    margin: 0 auto;
+    top: 10px;
+    right: 35%;
+    background-color: #D9D9D9
+}
+
+.simple-copy-small-Bold p {
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.circlebutton-small-mobile {
+    width: 40px;
+    height: 40px;
+    border-radius: 32px;
+    line-height: 62px;
+}
+
+#showCheckOnMobile {
+    position: relative;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    background-color: rgb(243, 45, 40);
+    background-color: transparent;
+    color: rgb(243, 45, 40);
+    ;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#landscapePlease {
+    display: none;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    margin: auto auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px;
+}
+
+#landscapePlease span {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 16px;
+}
+
+#checkOverlay {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 999;
+}
+
+#closeOverlayBtn {
+    position: absolute;
+    margin: auto auto;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(243, 45, 40);
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+
+
+/* icon credit card*/
+
+.box-icon {
+    width: 90px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid #F4F4F4;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.icon-creditcard-box {
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+}
+
+.box-icon .amex {
+    width: 65px;
+    height: auto;
+    margin-top: 8px;
+}
+
+.box-icon .mastercard {
+    width: 65px;
+    height: auto;
+    margin-top: 8px;
+}
+
+.box-icon .visa {
+    width: 65px;
+    height: auto;
+    margin-top: 8px;
+}
+
+.box-icon .discover {
+    width: 65px;
+    height: auto;
+    margin-top: 8px;
+}
+
+.box-icon .dinersclub {
+    margin-top: 8px;
+}
+
+.box-icon .jcb {
+    margin-top: 8px;
+}
+
+.box-icon .unionpay {
+    margin-top: 8px;
+}
+
+.icon-cc-brands {
+    width: 100%;
+    min-height: 1px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .box-icon {
+        width: 50px;
+        height: 32px;
+        margin: 0 6px 10px 6px;
+    }
+    .box-icon .amex {
+        width: 35px;
+        height: auto;
+        margin-top: 4px;
+    }
+    .box-icon .mastercard {
+        width: 35px;
+        height: auto;
+        margin-top: 4px;
+    }
+    .box-icon .visa {
+        width: 35px;
+        height: auto;
+        margin-top: 4px;
+    }
+    .box-icon .discover {
+        width: 35px;
+        height: auto;
+        margin-top: 4px;
+    }
+    .box-icon .dinersclub {
+        width: 39px;
+        height: auto;
+        margin-top: 2px;
+    }
+    .box-icon .jcb {
+        width: 39px;
+        height: auto;
+        margin-top: 2px;
+    }
+    .box-icon .unionpay {
+        width: 33px;
+        height: auto;
+        margin-top: 5px;
+    }
+}
+
+.pending-withdrawals-text {
+    display: block !important;
+    font-weight: inherit;
+    color: #90918D !important;
+    max-width: 150px !important;
+    font-size: 14px !important;
+}
+
+.pending-withdrawals-text i{
+    color: #333 !important;
+}
+
+.no-block {
+    display: flex !important;
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 1200px) {}
+
+.cashier-desktop-sidebar .infoblock-body ul {
+    padding-left: 15px;
+  }
+  
+  
+  .echeck-success-modal .simple-copy {
+    color: #000000;
+  }
+  .echeck-success-modal dt {
+    font-weight: 400;
+  }
+  
+  .cashier-withdrawoptions-noround-output {
+    display: block;
+    padding: 5px 0;
+    background: #EFEFEF;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0 10px;
+  }
+  
+  .cashier-withdraw-provideraddress {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20px;
+    background: #545454;
+    text-align: center;
+    padding: 15px 25px 20px;
+  }
+  .cashier-withdraw-provideraddress-compact {
+    max-width: 250px;
+    border-radius: 10px;
+    background-color: #2D2D2C;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    padding: 15px 20px;
+  }
+  .cashier-withdraw-provideraddress em {
+    display: block;
+    text-align: left;
+    font-style: normal;
+    color: #999;
+    font-size: 8px;
+    margin: -4px 0 0 -4px;
+  }
+  .cashier-withdraw-provideraddress.form-group label {
+    color: #fff;
+    font-size: 20px;
+  }
+  .cashier-withdraw-provideraddress.form-group label small {
+    display: block;
+    font-size: 12px;
+    color: #eee;
+  }
+  .cashier-withdraw-provideraddress input,
+  .cashier-withdraw-provideraddress input:focus {
+    background-color: transparent;
+  }
+  .cashier-withdraw-provideraddress output {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .cashier-withdraw-provideraddress.form-group input {
+    text-align: center;
+    color: #fff;
+    border-bottom-color: #9B9B9B;
+  }
+  .cashier-withdraw-provideraddress.has-value input {
+    text-align: left;
+  }
+  
+  @media all and (max-width: 768px) { 
+    .cashier-withdraw-provideraddress {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .cashier-withdraw-provideraddress.form-group input {
+      font-size: 13px;
+    }
+  }
+  
+  .form-cashierwithdraw-new .resultslip {
+    margin-bottom: 0;
+  }
+  .form-cashierwithdraw-new .tanbox {
+    margin-bottom: 20px;
+  }
+
+  .awesome_submission_button {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+    color: inherit;
+    text-align: left;
+  }

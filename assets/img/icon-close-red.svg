@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Yes</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1_Help_Modal-Desktop" transform="translate(-851.000000, -291.000000)">
+            <g id="Yes" transform="translate(865.826488, 305.619980) rotate(-45.000000) translate(-865.826488, -305.619980) translate(851.326488, 282.119980)">
+                <path d="M14.5610834,38.0005331 C22.5692123,38.0005331 29.0610834,31.508662 29.0610834,23.5005331 C29.0610834,15.4924042 22.5692123,9.00053307 14.5610834,9.00053307 C6.55295455,9.00053307 0.0610834225,15.4924042 0.0610834225,23.5005331 C0.0610834225,31.508662 6.55295455,38.0005331 14.5610834,38.0005331 Z" id="Oval-54" fill="#EE3536" fill-rule="nonzero"></path>
+                <g id="+" transform="translate(4.061083, 0.000533)" font-size="34.56" font-family="OpenSans, Open Sans" fill="#FFFFFF" font-weight="normal">
+                    <text>
+                        <tspan x="0" y="37">+</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

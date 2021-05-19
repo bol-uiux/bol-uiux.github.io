@@ -1,0 +1,15 @@
+[
+  { "ID": "AB", "Name": "Alberta" },
+  { "ID": "BC", "Name": "British Columbia" },
+  { "ID": "MB", "Name": "Manitoba" },
+  { "ID": "NB", "Name": "New Brunswick" },
+  { "ID": "NL", "Name": "Newfoundland" },
+  { "ID": "NT", "Name": "Northwest Territories" },
+  { "ID": "NS", "Name": "Nova Scotia" },
+  { "ID": "NU", "Name": "Nunavut" },
+  { "ID": "ON", "Name": "Ontario" },
+  { "ID": "PE", "Name": "Prince Edward Island" },
+  { "ID": "QC", "Name": "Québec" },
+  { "ID": "SK", "Name": "Saskatchewan" },
+  { "ID": "YT", "Name": "Yukon" }
+]

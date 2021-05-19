@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23px" height="34px" viewBox="0 0 23 34" version="1.1" >
+	<!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+	<title>Path 2 Copy</title>
+	<desc>Created with Sketch.</desc>
+	<defs>
+		<polyline id="path-1" points="332.58496 501 323.39642 511.21992 318 501 332.627005 485"></polyline>
+		<filter x="-47.9%" y="-19.1%" width="195.7%" height="153.4%" filterUnits="objectBoundingBox" id="filter-2">
+			<feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+			<feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+			<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.189424819 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+		</filter>
+	</defs>
+	<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<g id="1.1_BetOnline_Cashier_ZellePay" transform="translate(-314.000000, -483.000000)">
+			<g id="Path-2-Copy">
+				<use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+				<use fill="#B51415" fill-rule="evenodd" xlink:href="#path-1"></use>
+			</g>
+		</g>
+	</g>
+</svg>

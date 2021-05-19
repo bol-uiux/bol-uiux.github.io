@@ -1,0 +1,93 @@
+#app_load {
+  display: none;
+  position: relative;
+  margin: auto auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3000;
+}
+
+.icon-whitepayment-bch {
+  background-image: url(../img/icon-whitepayment-bch.png);
+  width: 57px;
+  height: 38px;
+}
+
+.icon-whitepayment-bitcoingold {
+  background-image: url(../img/icon-whitepayment-bitcoingold.svg);
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 0px;
+}
+
+.icon-whitepayment-ripple {
+  background-image: url(../img/icon-whitepayment-ripple.svg);
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 -10px;
+}
+
+.icon-whitepayment-status {
+  background-image: url(../img/icon-whitepayment-status.svg);
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 0px;
+}
+
+.icon-whitepayment-dash {
+  background-image: url(../img/icon-whitepayment-dash.svg);
+  width: 52px;
+  height: 31px;
+}
+
+.icon-whitepayment-0x {
+  background-image: url(../img/icon-whitepayment-0x.svg);
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 0px;
+}
+
+.icon-whitepayment-darkcoin {
+  background-image: url(../img/icon-whitepayment-darkcoin.png);
+  width: 57px;
+  height: 38px;
+}
+
+/*Error Msg*/
+.errorarea {
+  color: #fff;
+  margin: 5px auto 0px auto;
+  text-align: left;
+  border: 1px solid red;
+  padding: 3px 3px 3px 35px;
+  width: 85%;
+  background: rgba(255, 234, 234, 1.0) url(../images/Stop.png) no-repeat;
+  background-size: 20px 20px;
+  background-position: 5px 3px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: black;
+}
+
+
+.loadingAnimation {
+  background-color: #111;
+  opacity: .8;
+  -khtml-opacity: .80;
+  -moz-opacity: .8;
+  font-weight: bold;
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: inline;
+  width: 55px;
+  height: 55px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}

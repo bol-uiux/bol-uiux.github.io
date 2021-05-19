@@ -1,0 +1,309 @@
+* {
+    margin:     0;
+	padding:    0;
+	border:     0;
+
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+
+
+#checkContainer {
+    position: relative;
+
+    left: -140px;
+
+    width: 580px;
+    height: 280px;
+
+    /* width: 88%;
+    height: 86%; */
+
+    background-color: white;
+    border: 1px solid #b6b7ba;
+    overflow: hidden
+}
+
+#checkCountainer input {
+  border: 0;
+}
+
+/* HEADER AREA */
+#checkHeader {
+    position: relative;
+    width: 100%;
+    height: 6%; /* 18 */
+    /* background-color: #e83535; */
+    text-align: center;
+    line-height: 350%;
+    font-size: 16px;
+}
+
+#checkHeader span {
+    text-transform: uppercase;
+
+}
+
+#barcodeTop {
+  
+    position: absolute;
+    width: 25%;
+    height: 25px;
+    /* background-color: black; */
+    top: 20px;
+    right: -1.5%;
+
+    background: url("barcode.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+}
+
+
+/* BODY AREA */
+#checkBody {
+
+
+    position: relative;
+    width: 100%;
+    height: 72%;
+    font-size: 14px;
+    /* background-color: #a82525; */
+}
+
+#checkBodyLeft {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    float: left;
+    /* background-color: #893434; */
+}
+
+#topList, #bottomList {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+#topList li, #bottomList li {
+    margin-top: 8px;
+    margin-left: -5px;
+
+}
+
+#bottomList li {
+    margin-top: 13px;
+}
+
+
+#topList li {
+    
+}
+
+.inputLabel {
+    position: absolute;
+    height: 33px;
+    background-color: white; 
+    font-weight: bold;
+}
+
+
+.inputLabelFix {
+    position: absolute;
+    height: 33px;
+    background-color: white; 
+    font-weight: bold;
+    left: 16px;
+}
+
+
+.textInput {
+    text-align: center;    
+    top: 5px;
+    font-size: 8px;
+    /* background-color: red; */
+    width: 88%;
+    height: 20px;
+    border-bottom: 1px solid #aeb0b2;
+}
+
+#addressExtraInput {
+    text-indent: 115px;
+}
+
+.textInput2 {
+
+    text-align: center;    
+    top: 5px;
+    text-indent: 90px;
+    /* background-color: red; */
+    width: 120%;
+    height: 20px;
+    border-bottom: 1px solid #aeb0b2;
+}
+
+
+#referenceInput {
+    border-bottom: 0;
+}
+
+.referenceView {
+    position: absolute;
+    bottom: 20px;
+}
+
+.referenceInputLabel {
+    position: relative;
+    height: 33px;
+    background-color: transparent; 
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.checkInputInfo {
+    width: 100%;
+    border-bottom: 1px solid #aeb0b2;
+}
+
+.checkInputInfoLong {
+    width: 75%;
+    border-bottom: 1px solid #aeb0b2;
+}
+
+#checkBodyRight {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    float: right;
+    /* background-color: #682727;   */
+    text-align: center;
+
+    font-size: 10px;
+}
+
+.numberDivisionBS {
+    position: absolute; 
+    margin: auto auto;
+    bottom: 10%;
+    left: 0; right: 0;
+    width: 45%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.numberDivisionBSLeft {
+    position: relative;
+    float: left;
+    width: 65%;
+    height: 100%;
+
+    
+}
+.numberDivisionBSRight {
+    position: relative;
+    float: right;
+    width: 35%;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.fractionalNumBordered {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    
+    /* background-color: red; */
+    /*border-bottom: 2px solid black;*/
+    text-align: center;
+}
+
+#fractionLine {
+    position: absolute;
+    margin: auto auto;
+    left: 0; right: 0;
+    top: 19px;
+    width: 68%;
+    height: 3.5%;
+    background-color: black;
+    z-index: 10;
+}
+
+.fractionalNum {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    bottom: 0;
+    /* background-color: pink; */
+    text-align: center;
+}
+
+#moneyInNumbers {
+    position: absolute;
+    margin: auto auto;
+    top: 0;
+    bottom: 30px;
+    left: 0; right: 0;
+    width: 200px;
+    height: 30px;
+    line-height: 60px;
+    font-size: 26px;
+    font-weight: bold;
+    /* background-color: red; */
+}
+
+/* FOOTER AREA */
+#checkFooter {
+    position: relative;
+    width: 100%;
+    height: 22%;
+}
+
+#checkFooterLeft {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-left: 15px;
+
+    
+}
+
+.checkFooterRefNum {
+
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    margin: auto auto;
+    top: 0;
+    bottom: -15px;
+    font-weight: bold;
+}
+
+.barcodeBottom {
+    position: absolute;
+    width: 42%;
+    height: 80%;
+    right: -2%;
+    bottom: 0;
+    /* background-color: black; */
+    background: url("barcode.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+}
+
+
+#checkContainer input {
+    font-size: 15px;
+}
+
+.depositDetailsLabel {
+    color: red;
+}

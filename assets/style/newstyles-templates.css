@@ -1,0 +1,75 @@
+/* ----------------------------------------------------------------
+	Basic
+-----------------------------------------------------------------*/
+
+.light-background {
+	color: #E5E5E5;
+
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 19.6px; 
+	color:#2D2E2C;
+}
+
+
+h1 {
+font-family: open sans; 
+font-size:30px; 
+font-weight:600; 
+line-height: 40.85px; 
+color:#2D2E2C;
+}
+
+
+h2 {
+font-family: open sans; 
+font-size:14px; 
+font-weight:600; 
+line-height:20px; 
+color:#2D2E2C;
+}
+
+ h3 {
+font-family: open sans; 
+font-size:12px; 
+font-weight:600; 
+line-height:27.24px; 
+color:#2D2E2C;
+}
+
+p {
+font-family: open sans; 
+font-size:14px; 
+font-weight:600; 
+line-height: 19.6px; 
+color:#2D2E2C;
+ }
+
+a {
+text-decoration: none !important;
+color: #EE3536;
+}
+
+a:hover { color: #222; }
+
+
+.center {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+
+margin: auto; width: 400px; padding: 10px;
+
+.stepbystep {
+  width: 110px;
+  padding: 10px;
+  text-align: left;
+}
+
