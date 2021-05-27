@@ -36,7 +36,7 @@ h2 {
 	font-family: open sans; 
 	font-size:12px; 
 	font-weight:600; 
-	line-height:27px; 
+	line-height:20px; 
 	color:#2D2E2C;
 }
 
@@ -67,7 +67,7 @@ p {
 font-family: open sans; 
 font-size:14px; 
 font-weight:400; 
-line-height: 19.6px; 
+line-height: 20px; 
 color:#2D2E2C;
  }
 
@@ -102,13 +102,39 @@ a:hover { color: #EE3536; }
   text-align: right;
 }
 
+
+/* Spacing CSS */
 .col-first {
 		left: -15px;
 }
 
-.col-last {
-		right: 15px;
+
+.col-first-sm {
+		left: -5px;
 }
+
+.col-first-md {
+		left: -10px;
+}
+
+.pad-left-sm {
+		left: 5px;
+}
+.pad-left-md {
+		left: 10px;
+}
+.pad-right-sm {
+		right: 5px;
+}
+
+.pad-right-md {
+		right: 10px;
+}
+
+.col-last {
+		margin: 0px 0px 0px 0px;
+}
+
 
 .floatl {
 	float:left;
@@ -119,31 +145,6 @@ a:hover { color: #EE3536; }
 	float:right;
 }
 
-/* Spacing CSS */
-
-.topmargin-sm { margin-top: 20px !important; }
-.topmargin-xsm { margin-top: 15px !important; }
-.topmargin-xxsm { margin-top: 4px !important; }
-.topmargin-md { margin-top: 30px !important; }
-
-.topmargin-xmd { margin-top: 45px !important; }
-
-.topmargin-lg { margin-top: 80px !important; }
-
-.topmargin-xlg { margin-top: 150px !important; }
-
-.topmargin-xxlg { margin-top: 180px !important; }
-
-.bottommargin-sm { margin-bottom: 20px !important; }
-
-.bottommargin-xsm { margin-bottom: 15px !important; }
-.bottommargin-xxsm { margin-bottom: 8px !important; }
-
-.bottommargin-3xsm { margin-bottom: 4px !important; }
-.bottommargin-xmd { margin-bottom: 30px !important; }
-.bottommargin-md { margin-bottom: 60px !important; }
-
-.bottommargin-lg { margin-bottom: 80px !important; }
 
 .head-item {
     margin: -15px;
@@ -158,6 +159,14 @@ a:hover { color: #EE3536; }
 	margin:0px 0px -5px 0px;
 }
 
+
+.padding-r {
+	padding:0px 10px 0px 0px;
+}
+
+.padding-l {
+	padding:0px 0px 0px 10px;
+}
 
 .leading-xsm {
 	margin:0px 0px -10px 0px;
@@ -183,9 +192,36 @@ a:hover { color: #EE3536; }
     margin: 0px 5px 0px 0px;
 }
 
-.col-right-end {
-    margin: 0px 0px 0px 15px;
-}
+
+.topmargin-sm { margin-top: 20px !important; }
+.topmargin-xsm { margin-top: 15px !important; }
+.topmargin-xxsm { margin-top: 8px !important; }
+.topmargin-md { margin-top: 30px !important; }
+
+.topmargin-xmd { margin-top: 45px !important; }
+
+.topmargin-lg { margin-top: 80px !important; }
+
+.topmargin-xlg { margin-top: 150px !important; }
+
+.topmargin-xxlg { margin-top: 180px !important; }
+
+
+.bottommargin-3xsm { margin-bottom: 4px !important; }
+
+.bottommargin-xxsm { margin-bottom: 8px !important; }
+
+.bottommargin-xsm { margin-bottom: 15px !important; }
+
+.bottommargin-sm { margin-bottom: 20px !important; }
+
+.bottommargin-xxmd { margin-bottom: 25px !important; }
+
+.bottommargin-xmd { margin-bottom: 30px !important; }
+
+.bottommargin-md { margin-bottom: 60px !important; }
+
+.bottommargin-lg { margin-bottom: 80px !important; }
 
 
 .line {
@@ -195,6 +231,7 @@ a:hover { color: #EE3536; }
 }
 
 
+
 .line2 {
 	border: 1px solid #90918D;
 	position: relative;
@@ -202,6 +239,28 @@ a:hover { color: #EE3536; }
 	width: 375px;
 }
 
+
+hr {
+	border: 1px solid #90918D;
+	width: 315px;
+	opacity: 0.3;
+	margin-bottom: -10px;
+}
+
+.grey-notification-title {
+	opacity: 0.5;
+	padding: 8px 0px 0px 10px;
+}
+
+
+.grey-notification {
+	opacity: 0.5;
+	padding: 1px 0px 0px 10px;
+}
+
+.low-opacity {
+	opacity: 0.5;
+}
 
 .button-red {
 
@@ -230,6 +289,37 @@ a:hover { color: #EE3536; }
 	
 }
 
+
+.button-red-sm {
+
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	white-space: nowrap;
+	margin: 5px;
+	padding: 10px 35px 10px 35px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 20px;
+	background-color: #EE3536;
+	color: #FFF;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: none;
+	border-radius: 6px;
+}
+
+.button-red-sm:hover {
+	background-color: #EE3536;
+	color: #FFF;
+	
+}
+
+
+
+
 .button-green {
 
 	display: inline-block;
@@ -251,6 +341,30 @@ a:hover { color: #EE3536; }
 	border-radius: 6px;
 }
 
+.button-green-lg {
+
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	white-space: nowrap;
+	margin: 5px;
+	padding: 20px 55px 55px 55px;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 38px;
+	background-color: #8AC500;
+	color: #FFF;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: none;
+	border-radius: 6px;
+}
+
+
+
 .button-soft-grey-lg {
 
 	display: inline-block;
@@ -271,6 +385,124 @@ a:hover { color: #EE3536; }
 	letter-spacing: 1px;
 	border: none;
 	border-radius: 6px;
+}
+
+.white-box {
+	padding: 20px 0px 10px 0px;
+	width: 100%;
+	border: none;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+	border-radius: 6px;
+	background-color: #FFF;
+	outline:none !important
+}
+
+
+.white-box-steps {
+	padding: 20px 0px 20px 0px;
+	font-family: open sans; 
+	font-size:15px; 
+	font-weight:400; 
+	line-height:20px; 
+	color:#2D2E2C;
+	width: 100%;
+	height: 85px;
+	border: none;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+	border-radius: 6px;
+	background-color: #FFF;
+	outline:none !important
+}
+
+
+
+
+.next-steps a {
+	text-decoration: none !important;
+	color: #EE3536;
+	text-transform: uppercase;
+
+}
+
+.next-steps a:hover { 
+	color: #EE3536; }
+
+
+
+.next-steps button {
+	padding: 30px 10px 20px 10px;
+	margin: 0px 30px 0px -15px;
+	width: 175px;
+	height: 150px;
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #949494;
+	border: none;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+	border-radius: 6px;
+	background-color: #FFF;
+	outline:none !important
+}
+
+
+.next-steps button:active {
+	padding: 30px 10px 20px 10px;
+	margin: 0px 30px 0px -15px;
+	width: 175px;
+	height: 150px;
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #949494;
+	border: none;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+	border-radius: 6px;
+	background-color: #FFF;
+	outline:none !important
+}
+
+
+
+ .next-steps button:focus {
+ 	padding: 30px 10px 20px 10px;
+	margin: 0px 30px 0px -15px;
+	width: 175px;
+	height: 150px;
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #949494;
+	border: none;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+	border-radius: 6px;
+	background-color: #FFF;
+	outline:none !important
+}
+
+
+.next-steps button:hover {
+	padding: 30px 10px 20px 10px;
+	margin: 0px 30px 0px -15px;
+	width: 175px;
+	height: 150px;
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #949494;
+	border: none;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.18);
+	border-radius: 6px;
+	background-color: #F8F8F8;
+	outline:none !important
 }
 
 
@@ -398,6 +630,15 @@ color: #949494;
 }
 
 
+
+.deposit-summary-title {
+	position: relative;
+	line-height: 30px;
+	color: #2D2E2C;
+	margin: 15px -20px 0px 0px;
+}
+
+
 progress[value] {
   width: 180px;
   height: 30px;
@@ -419,6 +660,46 @@ progress[value]::-webkit-progress-value {
   background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
+
+.alertbanner-red {
+  padding: 10px 0px 10px 0px;
+  font-family: open sans; 
+  font-size:14px; 
+  font-weight:600; 
+  line-height: 19.6px; 
+  color:#2D2E2C;
+  font-style: normal;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  background-color: #f6f0f0;
+  border-radius: 6px;
+
+}
+
+
+
+/* Style the accordion panel. Note: hidden by default */
+.cancel-dd {
+	padding:5px 5px 25px 0px;
+  	margin-top: 10px;
+  	display: none;
+  	overflow: hidden;
+  	line-height: 20px;
+  	font-family: Open Sans;
+  	font-size:12px; 
+	font-weight:300;
+	color:#2D2E2C; 
+	position: relative;
+	left: 3px;
+}
+
+
+.active:after {
+  	position: relative;
+}
 
 
 
@@ -496,7 +777,118 @@ progress[value]::-webkit-progress-value {
 	opacity: 1;
 }
 
+/* Customize the label (the container) */
+.radiobutton {
+
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  color:#2D2E2C;
+  font-weight:700; 
+  font-family: open sans; 
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radiobutton input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+
+
+
+
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #FFF;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+/* On mouse-over, add a grey background color */
+.radiobutton:hover input ~ .checkmark {
+  background-color: #EE3536;
+}
+
+/* When the radio button is checked, add a blue background */
+.radiobutton input:checked ~ .checkmark {
+  background-color: #EE3536;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+	content: "";
+  position: relative;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radiobutton input:checked ~ .checkmark:after {
+  display: block;
+  
+}
+
+/* Style the indicator (dot/circle) */
+.radiobutton .checkmark:after {
+ left: 3px;
+  top: 7px;
+  width: 15px;
+  height: 10px;
+
+   background: url(../../assets/img/icon-checkmark-white.svg) no-repeat right;
+}
+
 label {
+	width: 100%;
+	height: 100%;
+  	margin: 0px 0px 0px 0px;
+  	font-family: open sans; 
+	font-size:12px; 
+	font-weight:400; 
+	line-height: 22.4px; 
+	color:#2D2E2C;
+	mix-blend-mode: normal;
+
+}
+
+
+label[type=radiobutton] {
+ position: relative;
+  padding-left: 35px;
+  padding-top: 3px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  color:#2D2E2C;
+  font-weight:700; 
+  font-family: open sans; 
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+label[type=bankdetails]  {
 	width: 100%;
 	height: 100%;
   	margin: 0px 0px 0px 0px;
