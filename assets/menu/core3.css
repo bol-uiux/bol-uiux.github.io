@@ -1,0 +1,63 @@
+.navbar {
+	background-color: #2D2E2C;
+	height: 90px;
+	position: relative;
+	width: 100%;
+
+	padding: 10px 10px 10px 300px;
+
+}
+
+
+.navbar-wrapper {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+
+.navbar-wrapper.is-static {
+	position: static !important;
+}
+
+
+.container-menu {
+	width: 1080px;
+}
+
+
+.nav-item {
+	margin: 30px 0px 0px 0px;
+	padding:0px 0px 0px 50px;
+	color: #FFF;
+
+}
+
+
+.nav-item a { 
+	font-family: open sans; 
+	font-size:18px; 
+	font-weight:600; 
+	line-height:23px; 
+	color:#FFF;
+	cursor: pointer;
+	margin-left: 15px;
+}
+
+
+.nav-item a:hover { 
+	font-family: open sans; 
+	font-size:18px; 
+	font-weight:600; 
+	line-height:23px; 
+	color:#EE3536;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
