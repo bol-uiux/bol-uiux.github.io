@@ -16,16 +16,25 @@
 
         <link href="//fonts.googleapis.com/css?family=Poppins:600%2C400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
 
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <script src="jquery.js"></script> 
+        <script> 
+          $(function(){
+           $("#header").load("../../header.html"); 
+           });
+      </script> 
 
 
-    </head>
+</head>
 
+<body style="background-color:#E5E5E5;">
 
-    <!-- BODY -->
+   <!-- Header -->
 
-    <body style="background-color:#E5E5E5;">
-        <!-- Body Inner -->
-
+             <div id="header"></div>
+       
+        <!-- end: Header -->
 
         <div class="container">
               <h1 style="text-align: center;">Electronic Check</h1>
@@ -40,8 +49,8 @@
                     width="20"
                     style="padding-top:12px;"/>
               </div>   
-              <div class="col-sm-3 bottommargin-sm col-first">                     
-                   <h3 style="color:#22AE01;">Banking</h3>
+              <div class="col-sm-3 bottommargin-sm leading-xxsm col-first">                     
+                   <h5 style="color:#22AE01;"><b>Banking</b></h5>
               </div>
 
 
@@ -52,8 +61,8 @@
                   width="20"
                   style="padding-top:12px;"/>
               </div>   
-              <div class="col-md-3 bottommargin-sm col-first-sm">                     
-                  <h3>Verification</h3>
+              <div class="col-md-3 bottommargin-sm leading-xxsm col-first-sm">                     
+                  <h5><b>Verification<b></h5>
               </div>
 
 
@@ -64,26 +73,28 @@
                     width="20"
                     style="padding-top:12px;"/>
               </div>   
-              <div class="col-md-2 bottommargin-sm col-last-lg">                     
-                    <h3 style="color:#AAAAAA;">Deposit</h3>
+              <div class="col-md-2 bottommargin-sm leading-xxsm col-last-lg">                     
+                    <h5 style="color:#AAAAAA;"><b>Deposit</b></h5>
               </div>
                 </div>
 
         <div class="container">
-            <div class="col-md-7 alertbanner-red bottommargin-sm">
-                <span style="color:#EE3536;">COMPLETE BANK VERIFICAITON<br>to finish eCheck set up.</span>
-            </div>   
-            <div class="col-md-5">
-                <h6 class="low-opacity">Time Remaining</h6>
-                <br>
-                <div class="line4"></div>
-            </div>  
+            <div class="col-md-12 alertbanner-red bottommargin-sm">
+                <div class="col-md-2">
+                    <img
+                        src="../../assets/img/icon-bank-verification.svg"
+                        alt="step 3"
+                        width="35"/>
+                </div>
+                <div class="col-md-10 topmargin-xxsm">
+                </div> <span style="color:#EE3536;">REQUIRED:</span> Micro Deposit Verification.
+                </div>     
         </div>
 
 
         <div class="container">
             <div class="left">
-                <p>To complete your eCheck deposit, we need to verify and connect your bank account and that you have access to it. We do this through a simple Instant Bank Verification processed in under 2 minutes.</p>
+                <p>To complete your eCheck deposit, we need to verify and connect your bank account and ensure you have access to it. We do this through a micro deposit into the bank account you provided.</p>
             </div>
         </div>
                
@@ -94,13 +105,14 @@
                 <div class="col-md-12 white-box-steps left bottommargin-xsm">
                     <div class="col-md-2">
                         <img
-                            src="../../assets/img/icon-ibv-step1.svg"
+                            src="../../assets/img/icon-mdv-step1.svg"
                             alt="step 3"
-                            width="55"/>
+                            width="55"
+                            style="margin-top:8px;"/>
                     </div>
                     <div class="col-md-10 pad-left-sm">
-                        <b><em>Directed To Your Online Banking.</em></b><br>
-                        <span style="font-size: 12px;" class="low-opacity">Simply select your bank from the list and sign into your online banking.</span>
+                        <b><em>We Send Your Bank a Small Deposit</em></b><br>
+                        <span style="font-size: 12px;" class="low-opacity">This micro deposit amount will be between $0.01 and $0.99.</span>
                     </div>
                 </div>
 
@@ -110,13 +122,13 @@
                 <div class="col-md-12 white-box-steps left bottommargin-xsm">
                     <div class="col-md-2">
                         <img
-                            src="../../assets/img/icon-ibv-step2.svg"
+                            src="../../assets/img/icon-mdv-step2.svg"
                             alt="step 2"
-                            width="55"/>
+                            width="45"/>
                     </div>
                     <div class="col-md-10 pad-left-sm">
-                        <b><em>Complete The Verification Steps.</em></b><br>
-                        <span style="font-size: 12px;" class="low-opacity">These will automatically appear and can be complete in just a few moments.</span>
+                        <b><em>Your Bank Account Receives Deposit.</em></b><br>
+                        <span style="font-size: 12px;" class="low-opacity">A micro deposit can take 1-4 business days to arrive.</span>
                     </div>
                 </div>
                    
@@ -129,8 +141,9 @@
                             width="55"/>
                     </div>
                     <div class="col-md-10 pad-left-sm">
-                        <b><em>Return Back To Your Account.</em></b><br>
-                        <span style="font-size: 12px;" class="low-opacity">Once completed we'll bring you right back to your account. </span>
+                        <b><em>Come Back and Enter Amount.</em></b><br>
+                        <span style="font-size: 12px;" class="low-opacity">You'll be prompted upon login to our site to confirm the amount deposited. </span>
+
                     </div>
                 </div>
                    
@@ -139,12 +152,12 @@
                  <div class="col-md-12 white-box-steps left bottommargin-xmd">
                     <div class="col-md-2">
                         <img
-                            src="../../assets/img/icon-ibv-step4.svg"
+                            src="../../assets/img/icon-ibv-step4.svg" 
                             alt="step 4"
                             width="50"/>
                     </div>
                     <div class="col-md-10 pad-left-sm">
-                        <b><em>Deposit Processed & Complete.</em></b><br>
+                        <b><em>Click Verify and Deposit Complete.</em></b><br>
                         <span style="font-size: 12px;" class="low-opacity">You'll receive a deposit receipt and funds will automatically be in your account.</span>
                     </div>
                 </div>
@@ -152,11 +165,66 @@
                    
                 <!-- ***END HOW IT WORKS BOX --> 
 
+ <div class="container">
+
+                <div class="left padding-r">
+                    <h2><em>Set Reminder Alerts.</em><h2>
+                    <p>Micro deposits can take anywhere form a couple of minutes to 4 business days to arrive in your bank account. Set alets, and we'll remind you to check and complete the verification</p>
+                </div>
+
+                <div class="col-md-12 col-first">
+                    <div class="col-md-1 col-first topmargin-sm"> <img
+                        src="../../assets/img/icon-reminder-text-red.svg" 
+                        alt="step 4"
+                        width="35"
+                        style="padding-top: 3px;"/>
+                    </div>
+
+                    <div class="col-md-8 padding-l-lg">
+                        <p><span style="color:#EE3536;"><b>SMS Text Reminders</b></span><br>
+                        Send to 1-213-123-4567</span><br>
+                        <span class="low-opacity" style="font-size:12px"> Reminder in 1 day.</span>  <a href="#" style="font-size:12px">Edit</a> </p>
+                    </div>
+
+
+                     <div class="col-md-2 topmargin-md">
+                        <label class="toggle-control"><input type="checkbox"><span class="control-active"></span></label>
+                    </div>
+
+                   
+                </div>
+
+
+                <div class="col-md-12 col-first bottommargin-md">
+                    <div class="col-md-1 col-first topmargin-sm"> <img
+                        src="../../assets/img/icon-reminder-email-grey.svg" 
+                        alt="step 4"
+                        width="35"
+                        style="padding-top: 3px;"/>
+                    </div>
+
+                    <div class="col-md-8 padding-l-lg low-opacity">
+                        <p><b>Email Reminders</b><br>
+                        Send to joh***pet@gmai...</span><br>
+                        <span style="font-size:12px"> Turn on a reminder.</span> </p>
+                    </div>
+
+
+                     <div class="col-md-2 topmargin-md">
+                        <label class="toggle-control"><input type="checkbox"><span class="control"></span></label>
+                    </div>
+
+                  
+                </div>
+
+
+  </div>
+
         <div class="container">
 
                 <div class="left padding-r">
                     <h2><em>Alternatively...</em><h2>
-                    <p>If you do not want to connect your bank through our Instant Bank Verification option you can <a href="#">select Micro Deposit Verification</a> where we will send your provided bank account a small deposit that you will be requried to verify to connect your bank account. This process can take anywhere from 1 - 4 business days to complete. </p>
+                    <p>If you do not want to connect your bank through our Micro Deposit Verification option and you can <a href="#">select Instant Bank Verification</a> where you simply log into your online banking, answer the verification questions required and connect your bank in under 2 minutes. </p>
                 </div>
 
 
@@ -251,7 +319,9 @@
 
 
         </script>
-
+          <script src="js/plugins.js"></script>
+  <!--Template functions-->
+  <script src="js/functions.js"></script>
 
     </body>    
 
