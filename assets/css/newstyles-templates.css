@@ -214,6 +214,10 @@ a:hover { color: #EE3536; }
 	padding:0px 0px 0px 10px;
 }
 
+.padding-l-md {
+	padding:0px 0px 0px 15px;
+}
+
 .padding-l-lg {
 	padding:0px 0px 0px 20px;
 }
@@ -1034,7 +1038,7 @@ hr {
 
 
 progress[value] {
-  width: 150px;
+  width: 160px;
   height: 30px;
   margin-top: 10px;
   -webkit-appearance: none;
